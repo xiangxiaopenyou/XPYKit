@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049B3C2E6A8FFD069933CC55E2C22FF7 /* XPYCategoryContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED95F6FA2974C871D6C70BE52BCDECEF /* XPYCategoryContentView.m */; };
+		070AD8A43A880D02340E5E347860D767 /* XPYAlertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C463B3ADE5F1F3C3C9F5BAF89FD8065 /* XPYAlertManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ACB9D75A09A1BAFDF196EE7B938AD3 /* XPYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A496BBDB4CB9A135AE823CD8805D4C2E /* XPYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E7E1409993C4154028A91CB0407AED4 /* Pods-XPYKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E206F10073146121A3619EE59E8192 /* Pods-XPYKit_Tests-dummy.m */; };
 		27D2EE8A9A2FFBCCC0B3FCE25C8BA248 /* Pods-XPYKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B8947A69F75114A19BA6AE92C356F9 /* Pods-XPYKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DCA5B71A5284FC3490DAAE0BDA31599 /* XPYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F18A56C64AFC026FF5E364598E953E60 /* XPYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832CF851F15F846BD2A18E3F3DA188 /* XPYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A06B21B1C7C6BC5024CBCDFB6DA2DA /* XPYAlertController.m */; };
 		3287C351A85CE913C8815623EC9FA60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3436271FB8D8379264065DB853118EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		66497117AC77606F02AD37780685A9EA /* XPYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E6D3302A1FB493509E48449E30477F /* XPYKit-dummy.m */; };
+		38DD9503532C96BBB8992FE211B8B811 /* XPYCategoryContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C25CF427C1FCAEF408F7E85B3FFDEFD4 /* XPYCategoryContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42923BD822D41D3AF2A8AEAB9000B541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4478AB7A856EFC069FF655CB85DFCC23 /* XPYCategoryTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E77693C8E6A9696B9CDA98319A71087 /* XPYCategoryTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F83E82F45E596508F8AC6687161E18 /* XPYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 610701290CC688E15E61947A3D2B7E7A /* XPYKit-dummy.m */; };
 		B6D592E5209138BDAD8254635CBC8F88 /* Pods-XPYKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB61C7F9DB31FD8C284DF9153BF085E /* Pods-XPYKit_Example-dummy.m */; };
 		D963CF40B9BDE01CF15FFBA9184E3888 /* Pods-XPYKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 937B88FBD5608A648E348ACC46C65C41 /* Pods-XPYKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E81CE0287EB96DD7A72B49E4AE93D3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F430E1D79BA154B122E50019CD34E180 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA32D936D97608E898D9A94668CCDF /* ReplaceMe.m */; };
+		E0508BC966053ACD976F4628D127EF15 /* XPYAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3CCEDFE12B742D48522430804F18 /* XPYAlertManager.m */; };
+		E90F3A7775B6311A54BAAF3D563A8F0D /* XPYCopyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 625701A0A04895BE58A57D43B06BB780 /* XPYCopyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720E0F43F24BEDE3FADB1EF19D4D883 /* XPYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD5CBF589596802AEBE79EAE1348551 /* XPYAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7DFE7F2C8384C61556D28138FDAC0B0 /* XPYCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE586EFEBDD6D9F8CECBC477A6341850 /* XPYCopyLabel.m */; };
+		FF9E885C9997A33D7C5BECE8C10899DC /* XPYCategoryTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE34E7D60CEF34E2750E9F3ADA346ED /* XPYCategoryTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,35 +48,44 @@
 /* Begin PBXFileReference section */
 		042E49312EE741BB2B2297EFC37F3176 /* Pods-XPYKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XPYKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		05696DE31756A38977A77E5A595A05A0 /* Pods-XPYKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		07DA32D936D97608E898D9A94668CCDF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XPYKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		1356FD9563F7B1309567986A13079278 /* Pods-XPYKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XPYKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C463B3ADE5F1F3C3C9F5BAF89FD8065 /* XPYAlertManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYAlertManager.h; path = XPYKit/Classes/XPYAlertManager.h; sourceTree = "<group>"; };
 		1C488DDE13666CF71D5B7ED1117DEA38 /* Pods-XPYKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		29968DFF57674FBAB43140863398A6BD /* XPYKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPYKit.xcconfig; sourceTree = "<group>"; };
+		1E77693C8E6A9696B9CDA98319A71087 /* XPYCategoryTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYCategoryTitleView.h; path = XPYKit/Classes/XPYCategoryTitleView.h; sourceTree = "<group>"; };
+		30F5897AE209766D68D7503B77DE8C6C /* XPYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XPYKit-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		38E9EF9BB4D92F17AA4EE8388C52444D /* XPYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XPYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3CB765E8C22B7576EC58F8F9BFEADDE1 /* Pods_XPYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XPYKit_Example.framework; path = "Pods-XPYKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB61C7F9DB31FD8C284DF9153BF085E /* Pods-XPYKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPYKit_Example-dummy.m"; sourceTree = "<group>"; };
-		4EE237F8B947D8F82EB195C3FDC524FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		59673F7A3D0AA9E5CABE4E951BFE6849 /* XPYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XPYKit-Info.plist"; sourceTree = "<group>"; };
+		54B23623E45CB48B7ADEEC93F9D7C955 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		58BD338C1D5890FC1E167A6EB09EA1DD /* XPYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XPYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		610701290CC688E15E61947A3D2B7E7A /* XPYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPYKit-dummy.m"; sourceTree = "<group>"; };
 		6166AEB0711BD136F42FD7DC68CEA958 /* Pods-XPYKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		625701A0A04895BE58A57D43B06BB780 /* XPYCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYCopyLabel.h; path = XPYKit/Classes/XPYCopyLabel.h; sourceTree = "<group>"; };
 		669DFFC7F0C1C0F20A97D09936F06CE7 /* Pods-XPYKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPYKit_Example.modulemap"; sourceTree = "<group>"; };
 		71B8947A69F75114A19BA6AE92C356F9 /* Pods-XPYKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPYKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7400CC87C5BE90353FC25141C19C93F2 /* XPYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-prefix.pch"; sourceTree = "<group>"; };
+		79A06B21B1C7C6BC5024CBCDFB6DA2DA /* XPYAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYAlertController.m; path = XPYKit/Classes/XPYAlertController.m; sourceTree = "<group>"; };
 		7D896E2C4B04CB70993C0CB8E23A4B71 /* Pods-XPYKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPYKit_Tests.modulemap"; sourceTree = "<group>"; };
-		86C91592A03123D3A64210CD4864E086 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7DE34E7D60CEF34E2750E9F3ADA346ED /* XPYCategoryTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYCategoryTitleView.m; path = XPYKit/Classes/XPYCategoryTitleView.m; sourceTree = "<group>"; };
+		8B0A4411B311DB07294092215F5005D7 /* XPYKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPYKit.xcconfig; sourceTree = "<group>"; };
 		8D98CD8CFFF4A8F382D5E64CE3F08729 /* Pods-XPYKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		90FC0A05A3BF62A41CFB987DA7FA895B /* Pods-XPYKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Example-Info.plist"; sourceTree = "<group>"; };
 		937B88FBD5608A648E348ACC46C65C41 /* Pods-XPYKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPYKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		94E6D3302A1FB493509E48449E30477F /* XPYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPYKit-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A496BBDB4CB9A135AE823CD8805D4C2E /* XPYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-umbrella.h"; sourceTree = "<group>"; };
 		AB282FD2D74DDCC699271818883C4BE2 /* Pods-XPYKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B3C9DC2547B0CF43063051BA2E108ABA /* XPYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPYKit.modulemap; sourceTree = "<group>"; };
+		BDA2EF0B80CB5BBA4D399FCA3ED923E0 /* XPYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-prefix.pch"; sourceTree = "<group>"; };
+		BDD5CBF589596802AEBE79EAE1348551 /* XPYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYAlertController.h; path = XPYKit/Classes/XPYAlertController.h; sourceTree = "<group>"; };
 		C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XPYKit.framework; path = XPYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25CF427C1FCAEF408F7E85B3FFDEFD4 /* XPYCategoryContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYCategoryContentView.h; path = XPYKit/Classes/XPYCategoryContentView.h; sourceTree = "<group>"; };
 		C436EFCFBE4A0054AFD012055867FB8B /* Pods-XPYKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XPYKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D9BB3CCEDFE12B742D48522430804F18 /* XPYAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYAlertManager.m; path = XPYKit/Classes/XPYAlertManager.m; sourceTree = "<group>"; };
+		ED95F6FA2974C871D6C70BE52BCDECEF /* XPYCategoryContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYCategoryContentView.m; path = XPYKit/Classes/XPYCategoryContentView.m; sourceTree = "<group>"; };
 		EE175C4502FF213D8143F8AEBC0F3EF1 /* Pods-XPYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F18A56C64AFC026FF5E364598E953E60 /* XPYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-umbrella.h"; sourceTree = "<group>"; };
+		EE56134E9B3A6D6C69F9C314AD4BC557 /* XPYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPYKit.modulemap; sourceTree = "<group>"; };
+		EE586EFEBDD6D9F8CECBC477A6341850 /* XPYCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYCopyLabel.m; path = XPYKit/Classes/XPYCopyLabel.m; sourceTree = "<group>"; };
 		F2E206F10073146121A3619EE59E8192 /* Pods-XPYKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPYKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		F4356C53BDF345B7F8E036F518C4289F /* Pods_XPYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XPYKit_Tests.framework; path = "Pods-XPYKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634E42D83D0F05C66552DD8095BA7D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FE50C7822F1081DE925BD3AB4EDF9788 /* Pods-XPYKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,11 +98,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4160DDDFEBC505E78AB08797D689C1EE /* Frameworks */ = {
+		4CBDA5B67C22DE9E267DED7A4D7C9F98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81CE0287EB96DD7A72B49E4AE93D3C4 /* Foundation.framework in Frameworks */,
+				42923BD822D41D3AF2A8AEAB9000B541 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +117,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041C274BD537ACC74FFED546D2A21F19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE56134E9B3A6D6C69F9C314AD4BC557 /* XPYKit.modulemap */,
+				8B0A4411B311DB07294092215F5005D7 /* XPYKit.xcconfig */,
+				610701290CC688E15E61947A3D2B7E7A /* XPYKit-dummy.m */,
+				30F5897AE209766D68D7503B77DE8C6C /* XPYKit-Info.plist */,
+				BDA2EF0B80CB5BBA4D399FCA3ED923E0 /* XPYKit-prefix.pch */,
+				A496BBDB4CB9A135AE823CD8805D4C2E /* XPYKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XPYKit";
+			sourceTree = "<group>";
+		};
 		0C006F213BD58F63A3D149F5316D5C41 /* Pods-XPYKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,39 +148,6 @@
 			path = "Target Support Files/Pods-XPYKit_Example";
 			sourceTree = "<group>";
 		};
-		258155DC1EE2EDA1AF3109C3BC5F1559 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				69BB5C8578911CF546F0C0FB085A5D91 /* XPYKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		69BB5C8578911CF546F0C0FB085A5D91 /* XPYKit */ = {
-			isa = PBXGroup;
-			children = (
-				07DA32D936D97608E898D9A94668CCDF /* ReplaceMe.m */,
-				F33C9B5E323BC2E9A2D7E96C1E4DE176 /* Pod */,
-				85354D27388BAB6DB74237822D6DDC8A /* Support Files */,
-			);
-			name = XPYKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		85354D27388BAB6DB74237822D6DDC8A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3C9DC2547B0CF43063051BA2E108ABA /* XPYKit.modulemap */,
-				29968DFF57674FBAB43140863398A6BD /* XPYKit.xcconfig */,
-				94E6D3302A1FB493509E48449E30477F /* XPYKit-dummy.m */,
-				59673F7A3D0AA9E5CABE4E951BFE6849 /* XPYKit-Info.plist */,
-				7400CC87C5BE90353FC25141C19C93F2 /* XPYKit-prefix.pch */,
-				F18A56C64AFC026FF5E364598E953E60 /* XPYKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XPYKit";
-			sourceTree = "<group>";
-		};
 		9907520785FCA6AFEBE1CAC13C83175D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +156,14 @@
 				C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9B4983E424B057523A48C47FE59F7166 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5D53B3B900C7FCF3D8EA9DCA9FAAE94 /* XPYKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B419A56CBBB3CC231696E603E651B69C /* Pods-XPYKit_Tests */ = {
@@ -175,6 +182,26 @@
 			path = "Target Support Files/Pods-XPYKit_Tests";
 			sourceTree = "<group>";
 		};
+		B5D53B3B900C7FCF3D8EA9DCA9FAAE94 /* XPYKit */ = {
+			isa = PBXGroup;
+			children = (
+				BDD5CBF589596802AEBE79EAE1348551 /* XPYAlertController.h */,
+				79A06B21B1C7C6BC5024CBCDFB6DA2DA /* XPYAlertController.m */,
+				1C463B3ADE5F1F3C3C9F5BAF89FD8065 /* XPYAlertManager.h */,
+				D9BB3CCEDFE12B742D48522430804F18 /* XPYAlertManager.m */,
+				C25CF427C1FCAEF408F7E85B3FFDEFD4 /* XPYCategoryContentView.h */,
+				ED95F6FA2974C871D6C70BE52BCDECEF /* XPYCategoryContentView.m */,
+				1E77693C8E6A9696B9CDA98319A71087 /* XPYCategoryTitleView.h */,
+				7DE34E7D60CEF34E2750E9F3ADA346ED /* XPYCategoryTitleView.m */,
+				625701A0A04895BE58A57D43B06BB780 /* XPYCopyLabel.h */,
+				EE586EFEBDD6D9F8CECBC477A6341850 /* XPYCopyLabel.m */,
+				CEA1D7E9E13FA81EE5AD591C0C77B85A /* Pod */,
+				041C274BD537ACC74FFED546D2A21F19 /* Support Files */,
+			);
+			name = XPYKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,11 +210,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CEA1D7E9E13FA81EE5AD591C0C77B85A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				54B23623E45CB48B7ADEEC93F9D7C955 /* LICENSE */,
+				F634E42D83D0F05C66552DD8095BA7D2 /* README.md */,
+				58BD338C1D5890FC1E167A6EB09EA1DD /* XPYKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				258155DC1EE2EDA1AF3109C3BC5F1559 /* Development Pods */,
+				9B4983E424B057523A48C47FE59F7166 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9907520785FCA6AFEBE1CAC13C83175D /* Products */,
 				D6E70D5137B74AB33CB2C1778376FF71 /* Targets Support Files */,
@@ -211,16 +248,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F33C9B5E323BC2E9A2D7E96C1E4DE176 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4EE237F8B947D8F82EB195C3FDC524FC /* LICENSE */,
-				86C91592A03123D3A64210CD4864E086 /* README.md */,
-				38E9EF9BB4D92F17AA4EE8388C52444D /* XPYKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -232,6 +259,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ABA5DE6E429C26E8CEB4FF43F1133DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720E0F43F24BEDE3FADB1EF19D4D883 /* XPYAlertController.h in Headers */,
+				070AD8A43A880D02340E5E347860D767 /* XPYAlertManager.h in Headers */,
+				38DD9503532C96BBB8992FE211B8B811 /* XPYCategoryContentView.h in Headers */,
+				4478AB7A856EFC069FF655CB85DFCC23 /* XPYCategoryTitleView.h in Headers */,
+				E90F3A7775B6311A54BAAF3D563A8F0D /* XPYCopyLabel.h in Headers */,
+				19ACB9D75A09A1BAFDF196EE7B938AD3 /* XPYKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7029711AD359B76F5FC5CAA733A424B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,25 +280,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2D3BA1F51BADB551381513DF0E2F020 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DCA5B71A5284FC3490DAAE0BDA31599 /* XPYKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6D96844B958A113E48C6E6D4BE2008F7 /* XPYKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E4AEA8B412241A046F652B9F06D58E9 /* Build configuration list for PBXNativeTarget "XPYKit" */;
+			buildConfigurationList = 6576E5B3D67FB894FFC820CFA5BD7435 /* Build configuration list for PBXNativeTarget "XPYKit" */;
 			buildPhases = (
-				A2D3BA1F51BADB551381513DF0E2F020 /* Headers */,
-				5DCD9F330B7AD8A8EA1ACE671F556A59 /* Sources */,
-				4160DDDFEBC505E78AB08797D689C1EE /* Frameworks */,
-				445410120FDE917AB9631B5BDB9ADE06 /* Resources */,
+				5ABA5DE6E429C26E8CEB4FF43F1133DA /* Headers */,
+				45BF442E064445F32CD9C15A72BE775D /* Sources */,
+				4CBDA5B67C22DE9E267DED7A4D7C9F98 /* Frameworks */,
+				14D6D336301126150638DCD04F46AEE9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,7 +369,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		445410120FDE917AB9631B5BDB9ADE06 /* Resources */ = {
+		14D6D336301126150638DCD04F46AEE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,20 +393,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		45BF442E064445F32CD9C15A72BE775D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B832CF851F15F846BD2A18E3F3DA188 /* XPYAlertController.m in Sources */,
+				E0508BC966053ACD976F4628D127EF15 /* XPYAlertManager.m in Sources */,
+				049B3C2E6A8FFD069933CC55E2C22FF7 /* XPYCategoryContentView.m in Sources */,
+				FF9E885C9997A33D7C5BECE8C10899DC /* XPYCategoryTitleView.m in Sources */,
+				F7DFE7F2C8384C61556D28138FDAC0B0 /* XPYCopyLabel.m in Sources */,
+				51F83E82F45E596508F8AC6687161E18 /* XPYKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57E642B68051BABB35B5D48D83484054 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B6D592E5209138BDAD8254635CBC8F88 /* Pods-XPYKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5DCD9F330B7AD8A8EA1ACE671F556A59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F430E1D79BA154B122E50019CD34E180 /* ReplaceMe.m in Sources */,
-				66497117AC77606F02AD37780685A9EA /* XPYKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,9 +566,9 @@
 			};
 			name = Release;
 		};
-		58F80B7B43A068F6D5EFC3C600109F66 /* Release */ = {
+		5EB20C02BA4758DD1DC1C0C56F554D96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29968DFF57674FBAB43140863398A6BD /* XPYKit.xcconfig */;
+			baseConfigurationReference = 8B0A4411B311DB07294092215F5005D7 /* XPYKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -556,11 +592,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		76961B323C2FA5956F04A0653A1D464E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -660,9 +695,9 @@
 			};
 			name = Debug;
 		};
-		8D38824D8C54C14EB87A6B9A36ACC4A9 /* Debug */ = {
+		C0D12CC73B0BA4B95C8E12D3845E9BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29968DFF57674FBAB43140863398A6BD /* XPYKit.xcconfig */;
+			baseConfigurationReference = 8B0A4411B311DB07294092215F5005D7 /* XPYKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -686,10 +721,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F45083EA31F2CDFF1C70A022E816A5EF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,20 +764,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E4AEA8B412241A046F652B9F06D58E9 /* Build configuration list for PBXNativeTarget "XPYKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8D38824D8C54C14EB87A6B9A36ACC4A9 /* Debug */,
-				58F80B7B43A068F6D5EFC3C600109F66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6576E5B3D67FB894FFC820CFA5BD7435 /* Build configuration list for PBXNativeTarget "XPYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB20C02BA4758DD1DC1C0C56F554D96 /* Debug */,
+				C0D12CC73B0BA4B95C8E12D3845E9BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

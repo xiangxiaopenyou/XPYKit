@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "XPYAlertController.h"
+#import "XPYAlertManager.h"
+#import "XPYCategoryContentView.h"
+#import "XPYCategoryTitleView.h"
+#import "XPYCopyLabel.h"
 
 FOUNDATION_EXPORT double XPYKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XPYKitVersionString[];
