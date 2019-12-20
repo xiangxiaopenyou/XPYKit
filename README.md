@@ -22,7 +22,7 @@ pod 'XPYKit'
 
 ## Author
 
-xiangxiaopenyou, xpy921123@163.com
+xiangxiaopenyou, xlp921123@163.com
 
 ## License
 

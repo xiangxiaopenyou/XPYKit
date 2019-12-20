@@ -40,7 +40,7 @@
 		1089096F3305A45E0311F8BE /* Pods-XPYKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPYKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XPYKit_Example/Pods-XPYKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		41406A7839BC209C1F6A83E9 /* Pods-XPYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPYKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XPYKit_Tests/Pods-XPYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46ABF6318C03E011A75F5A3F /* Pods_XPYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPYKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F10BC3FF1F999868E131228 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F10BC3FF1F999868E131228 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5B3DD94DDAF030FED8522C79 /* Pods-XPYKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPYKit_Example.release.xcconfig"; path = "Target Support Files/Pods-XPYKit_Example/Pods-XPYKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XPYKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPYKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		69D1A2DE22EAA4B97B5D7E10 /* Pods-XPYKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPYKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XPYKit_Tests/Pods-XPYKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CE5CBA9F084C37ECE7353A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8CE5CBA9F084C37ECE7353A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CF30202029F36D5FF2B0294D /* Pods_XPYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPYKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEFA6A03E7BFC286F72B5910 /* XPYKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XPYKit.podspec; path = ../XPYKit.podspec; sourceTree = "<group>"; };
+		EEFA6A03E7BFC286F72B5910 /* XPYKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XPYKit.podspec; path = ../XPYKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				69D1A2DE22EAA4B97B5D7E10 /* Pods-XPYKit_Tests.debug.xcconfig */,
 				41406A7839BC209C1F6A83E9 /* Pods-XPYKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
