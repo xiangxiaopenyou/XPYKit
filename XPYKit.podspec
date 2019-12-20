@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XPYKit'
-  s.version          = '1.0.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of XPYKit.'
 
 # This description is used to generate tags and improve search results.
