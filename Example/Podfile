@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XPYKit_Example' do
+  pod 'XPYKit', :path => '../'
+
+  target 'XPYKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
