@@ -39,7 +39,7 @@ pod 'XPYKit'
 
     [XPYAlertManager showActionSheetWithTitle:@"ActionSheet" message:@"ActionSheet" cancel:@"取消" inController:self actions:@[@"item0", @"item1", @"item2"] actionHandler:^(NSInteger index) {
 
-    NSLog(@"click item%@", @(index));
+        NSLog(@"click item%@", @(index));
     
     }];
 
