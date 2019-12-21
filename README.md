@@ -21,6 +21,40 @@ it, simply add the following line to your Podfile:
 pod 'XPYKit'
 ```
 
+## Usage
+
+1、Alert
+
+    [XPYAlertManager showAlertWithTitle:@"Alert" message:@"Alert" cancel:@"取消" confirm:@"确定" inController:self confirmHandler:^{
+
+        NSLog(@"alert confirm");
+    
+    } cancelHandler:^{
+
+        NSLog(@"alert cancel");
+    
+    }];
+
+2、ActionSheet
+
+    [XPYAlertManager showActionSheetWithTitle:@"ActionSheet" message:@"ActionSheet" cancel:@"取消" inController:self actions:@[@"item0", @"item1", @"item2"] actionHandler:^(NSInteger index) {
+
+    NSLog(@"click item%@", @(index));
+    
+    }];
+
+3、CopyLabel
+
+    XPYCopyLabel *label = [[XPYCopyLabel alloc] initWithFrame:CGRectMake(200, 200, 100, 50)];
+    
+    label.text = @"点我复制";
+    
+    [label sizeToFit];
+    
+    label.isCanCopy = YES;
+    
+    label.selelctedBackgroundColor = [UIColor grayColor];
+
 ## Author
 
 xiangxiaopenyou, xlp921123@163.com
