@@ -54,6 +54,8 @@ pod 'XPYKit'
     label.isCanCopy = YES;
     
     label.selelctedBackgroundColor = [UIColor grayColor];
+    
+![copylabel](Example/ExampleImages/copy_label.gif)
 
 ## Author
 
