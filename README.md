@@ -55,7 +55,17 @@ pod 'XPYKit'
     
     label.selelctedBackgroundColor = [UIColor grayColor];
     
-![copylabel](Example/ExampleImages/copy_label.gif)
+![CopyLabel](Example/ExampleImages/copy_label.gif)
+
+4、CategoryView
+
+![CategoryView](Example/ExampleImages/category_view.gif)
+
+5、DropdownView
+
+![DropdownView](Example/ExampleImages/dropdown_view.gif)
+
+
 
 ## Author
 
