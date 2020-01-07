@@ -1,7 +1,7 @@
 {
   "name": "XPYKit",
-  "version": "1.0.0",
-  "summary": "A short description of XPYKit.",
+  "version": "1.0.1",
+  "summary": "开发工具库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiangxiaopenyou/XPYKit",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xiangxiaopenyou/XPYKit.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"

@@ -45,7 +45,7 @@
     UIViewController *controller1 = [[UIViewController alloc] init];
     controller1.view.backgroundColor = [UIColor redColor];
     UIViewController *controller2 = [[UIViewController alloc] init];
-    controller2.view.backgroundColor = [UIColor whiteColor];
+    controller2.view.backgroundColor = [UIColor grayColor];
     UIViewController *controller3 = [[UIViewController alloc] init];
     controller3.view.backgroundColor = [UIColor greenColor];
     UIViewController *controller4 = [[UIViewController alloc] init];

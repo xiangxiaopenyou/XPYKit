@@ -15,6 +15,11 @@
 #import "XPYCategoryContentView.h"
 #import "XPYCategoryTitleView.h"
 #import "XPYCopyLabel.h"
+#import "XPYDropdownCell.h"
+#import "XPYDropdownConfigurations.h"
+#import "XPYDropdownDefine.h"
+#import "XPYDropdownItemModel.h"
+#import "XPYDropdownView.h"
 
 FOUNDATION_EXPORT double XPYKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XPYKitVersionString[];

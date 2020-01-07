@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049B3C2E6A8FFD069933CC55E2C22FF7 /* XPYCategoryContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED95F6FA2974C871D6C70BE52BCDECEF /* XPYCategoryContentView.m */; };
-		070AD8A43A880D02340E5E347860D767 /* XPYAlertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C463B3ADE5F1F3C3C9F5BAF89FD8065 /* XPYAlertManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19ACB9D75A09A1BAFDF196EE7B938AD3 /* XPYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A496BBDB4CB9A135AE823CD8805D4C2E /* XPYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18689610102A59F30BAE635613BE5677 /* XPYCategoryContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC01D445A5433B74959EC9B8270A02FA /* XPYCategoryContentView.m */; };
 		1E7E1409993C4154028A91CB0407AED4 /* Pods-XPYKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E206F10073146121A3619EE59E8192 /* Pods-XPYKit_Tests-dummy.m */; };
+		20B2705CF40DAC97B1ADF67AB208EE73 /* XPYCopyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA7F58B0754B98A8648AFE4F0DF8B45 /* XPYCopyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27D2EE8A9A2FFBCCC0B3FCE25C8BA248 /* Pods-XPYKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B8947A69F75114A19BA6AE92C356F9 /* Pods-XPYKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B832CF851F15F846BD2A18E3F3DA188 /* XPYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A06B21B1C7C6BC5024CBCDFB6DA2DA /* XPYAlertController.m */; };
 		3287C351A85CE913C8815623EC9FA60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3436271FB8D8379264065DB853118EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		38DD9503532C96BBB8992FE211B8B811 /* XPYCategoryContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C25CF427C1FCAEF408F7E85B3FFDEFD4 /* XPYCategoryContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42923BD822D41D3AF2A8AEAB9000B541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4478AB7A856EFC069FF655CB85DFCC23 /* XPYCategoryTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E77693C8E6A9696B9CDA98319A71087 /* XPYCategoryTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51F83E82F45E596508F8AC6687161E18 /* XPYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 610701290CC688E15E61947A3D2B7E7A /* XPYKit-dummy.m */; };
+		414295ED905200F2F672651B0D9D2DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		42CD5FACE3BA0F23F5E528B27AB65EC7 /* XPYCategoryContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 820CFE96DD05F42FD87CD8CAF6C0448B /* XPYCategoryContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B15A03C7DEDD25EC66AE4AC099E43FD /* XPYCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFED6CCF966AB638CE3E7A6D9CC872 /* XPYCopyLabel.m */; };
+		57D71D830DF666FD3F51075CA51F1552 /* XPYDropdownItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8CA7BCADB3D82B45306B3AE27A70E7 /* XPYDropdownItemModel.m */; };
+		592B4A328D886A7ABB9509F98B80C066 /* XPYCategoryTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D68FEA732A042D508258B4B7DD23F2 /* XPYCategoryTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FD7C1F09EE863BB45ED8CDD5FEB9773 /* XPYDropdownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5235763007AF5E177DDCF648F9FE1B45 /* XPYDropdownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C345A8888ACD9662E5948FB508A4C4 /* XPYDropdownItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 924902B4F46C51F2D86E33CA477A17ED /* XPYDropdownItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		744ACE906D9FBC03DEEEB67154233786 /* XPYAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E36D58D50CECE6FF0F9F2AE40BF4B49F /* XPYAlertManager.m */; };
+		9DD6ED5033C972BECD2511024E69F066 /* XPYCategoryTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307FE1B5ED89AA24F410AE59BBF4D957 /* XPYCategoryTitleView.m */; };
+		A6A359E47DB2E5C0ED8C827A5CA9401C /* XPYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4DD4F1BB5858766F55637A286767F8 /* XPYAlertController.m */; };
+		AE3B216EE26EF39E6F99A05E5C3CEB8F /* XPYDropdownConfigurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5079EED4D638AC4DB9F7C0E94F441 /* XPYDropdownConfigurations.m */; };
+		B34ED2CBA4B7269B67341A1BE5263D06 /* XPYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = C624C251DCDF839ED45B18AB1BF32A85 /* XPYAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ABA13FC2E13A270CB8639C7EB9BFB9 /* XPYDropdownDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5724C520FA9B5E00491407BB2F9CCFF2 /* XPYDropdownDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6D592E5209138BDAD8254635CBC8F88 /* Pods-XPYKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB61C7F9DB31FD8C284DF9153BF085E /* Pods-XPYKit_Example-dummy.m */; };
+		D5088780948BAD3E1FE5FA25099FE9EF /* XPYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 141D67C1B5E79B605870A4E28F3FD85E /* XPYKit-dummy.m */; };
 		D963CF40B9BDE01CF15FFBA9184E3888 /* Pods-XPYKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 937B88FBD5608A648E348ACC46C65C41 /* Pods-XPYKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0508BC966053ACD976F4628D127EF15 /* XPYAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3CCEDFE12B742D48522430804F18 /* XPYAlertManager.m */; };
-		E90F3A7775B6311A54BAAF3D563A8F0D /* XPYCopyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 625701A0A04895BE58A57D43B06BB780 /* XPYCopyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F720E0F43F24BEDE3FADB1EF19D4D883 /* XPYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD5CBF589596802AEBE79EAE1348551 /* XPYAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7DFE7F2C8384C61556D28138FDAC0B0 /* XPYCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE586EFEBDD6D9F8CECBC477A6341850 /* XPYCopyLabel.m */; };
-		FF9E885C9997A33D7C5BECE8C10899DC /* XPYCategoryTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE34E7D60CEF34E2750E9F3ADA346ED /* XPYCategoryTitleView.m */; };
+		E7507D3AD2110D53DE93C41C411DA7AE /* XPYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D153B3471FC199D551B35D28672F5C2 /* XPYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF203C37C66C94CE9DB306DC1E159F07 /* XPYDropdownConfigurations.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4A5A3FB34ABE4C3E3D96F7E74792E9 /* XPYDropdownConfigurations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32D66A6BBA065F395CC322F79EBA5A9 /* XPYDropdownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E737319143AB66F73710B1376F03A /* XPYDropdownCell.m */; };
+		FA4EFDF5087BD8F208E063FFB7898A11 /* XPYDropdownCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9313E712D876D230CECE94E9354869EF /* XPYDropdownCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0F027684BBFBFE18270C7E1FEC1170 /* XPYAlertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19433181405F55C8E9EE1A1922D020CD /* XPYAlertManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEC989AC20794F0B13DB1C56779F3BE1 /* XPYDropdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4797DE09556497779D5CE1067BB55CA4 /* XPYDropdownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,43 +58,52 @@
 		042E49312EE741BB2B2297EFC37F3176 /* Pods-XPYKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XPYKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		05696DE31756A38977A77E5A595A05A0 /* Pods-XPYKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1356FD9563F7B1309567986A13079278 /* Pods-XPYKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XPYKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1C463B3ADE5F1F3C3C9F5BAF89FD8065 /* XPYAlertManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYAlertManager.h; path = XPYKit/Classes/XPYAlertManager.h; sourceTree = "<group>"; };
+		141D67C1B5E79B605870A4E28F3FD85E /* XPYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPYKit-dummy.m"; sourceTree = "<group>"; };
+		18A5079EED4D638AC4DB9F7C0E94F441 /* XPYDropdownConfigurations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownConfigurations.m; sourceTree = "<group>"; };
+		19433181405F55C8E9EE1A1922D020CD /* XPYAlertManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYAlertManager.h; sourceTree = "<group>"; };
 		1C488DDE13666CF71D5B7ED1117DEA38 /* Pods-XPYKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1E77693C8E6A9696B9CDA98319A71087 /* XPYCategoryTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYCategoryTitleView.h; path = XPYKit/Classes/XPYCategoryTitleView.h; sourceTree = "<group>"; };
-		30F5897AE209766D68D7503B77DE8C6C /* XPYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XPYKit-Info.plist"; sourceTree = "<group>"; };
+		1DF6AC901144020A835DBCE817F5A425 /* XPYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XPYKit-Info.plist"; sourceTree = "<group>"; };
+		307FE1B5ED89AA24F410AE59BBF4D957 /* XPYCategoryTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCategoryTitleView.m; sourceTree = "<group>"; };
+		31AB4E475A571C9DB05E95E0EC87AFE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3CB765E8C22B7576EC58F8F9BFEADDE1 /* Pods_XPYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XPYKit_Example.framework; path = "Pods-XPYKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA7F58B0754B98A8648AFE4F0DF8B45 /* XPYCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCopyLabel.h; sourceTree = "<group>"; };
+		455AF5D0FA88858B948E9018E33C1B64 /* XPYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPYKit.modulemap; sourceTree = "<group>"; };
+		4797DE09556497779D5CE1067BB55CA4 /* XPYDropdownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownView.m; sourceTree = "<group>"; };
+		4D153B3471FC199D551B35D28672F5C2 /* XPYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-umbrella.h"; sourceTree = "<group>"; };
 		4EB61C7F9DB31FD8C284DF9153BF085E /* Pods-XPYKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPYKit_Example-dummy.m"; sourceTree = "<group>"; };
-		54B23623E45CB48B7ADEEC93F9D7C955 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		58BD338C1D5890FC1E167A6EB09EA1DD /* XPYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XPYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		610701290CC688E15E61947A3D2B7E7A /* XPYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPYKit-dummy.m"; sourceTree = "<group>"; };
+		5235763007AF5E177DDCF648F9FE1B45 /* XPYDropdownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownView.h; sourceTree = "<group>"; };
+		5724C520FA9B5E00491407BB2F9CCFF2 /* XPYDropdownDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownDefine.h; sourceTree = "<group>"; };
+		60DE8407AA42904C764C2EE85BB34DFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6166AEB0711BD136F42FD7DC68CEA958 /* Pods-XPYKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		625701A0A04895BE58A57D43B06BB780 /* XPYCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYCopyLabel.h; path = XPYKit/Classes/XPYCopyLabel.h; sourceTree = "<group>"; };
 		669DFFC7F0C1C0F20A97D09936F06CE7 /* Pods-XPYKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPYKit_Example.modulemap"; sourceTree = "<group>"; };
+		6D4DD4F1BB5858766F55637A286767F8 /* XPYAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYAlertController.m; sourceTree = "<group>"; };
+		6E8CA7BCADB3D82B45306B3AE27A70E7 /* XPYDropdownItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownItemModel.m; sourceTree = "<group>"; };
 		71B8947A69F75114A19BA6AE92C356F9 /* Pods-XPYKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPYKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		79A06B21B1C7C6BC5024CBCDFB6DA2DA /* XPYAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYAlertController.m; path = XPYKit/Classes/XPYAlertController.m; sourceTree = "<group>"; };
 		7D896E2C4B04CB70993C0CB8E23A4B71 /* Pods-XPYKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPYKit_Tests.modulemap"; sourceTree = "<group>"; };
-		7DE34E7D60CEF34E2750E9F3ADA346ED /* XPYCategoryTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYCategoryTitleView.m; path = XPYKit/Classes/XPYCategoryTitleView.m; sourceTree = "<group>"; };
-		8B0A4411B311DB07294092215F5005D7 /* XPYKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPYKit.xcconfig; sourceTree = "<group>"; };
+		80D68FEA732A042D508258B4B7DD23F2 /* XPYCategoryTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCategoryTitleView.h; sourceTree = "<group>"; };
+		820CFE96DD05F42FD87CD8CAF6C0448B /* XPYCategoryContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCategoryContentView.h; sourceTree = "<group>"; };
 		8D98CD8CFFF4A8F382D5E64CE3F08729 /* Pods-XPYKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		90FC0A05A3BF62A41CFB987DA7FA895B /* Pods-XPYKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Example-Info.plist"; sourceTree = "<group>"; };
+		924902B4F46C51F2D86E33CA477A17ED /* XPYDropdownItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownItemModel.h; sourceTree = "<group>"; };
+		9313E712D876D230CECE94E9354869EF /* XPYDropdownCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownCell.h; sourceTree = "<group>"; };
 		937B88FBD5608A648E348ACC46C65C41 /* Pods-XPYKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPYKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		97BFED6CCF966AB638CE3E7A6D9CC872 /* XPYCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCopyLabel.m; sourceTree = "<group>"; };
+		99ACD8FBF21981089D4349A258BD83E1 /* XPYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A496BBDB4CB9A135AE823CD8805D4C2E /* XPYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-umbrella.h"; sourceTree = "<group>"; };
 		AB282FD2D74DDCC699271818883C4BE2 /* Pods-XPYKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BDA2EF0B80CB5BBA4D399FCA3ED923E0 /* XPYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-prefix.pch"; sourceTree = "<group>"; };
-		BDD5CBF589596802AEBE79EAE1348551 /* XPYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYAlertController.h; path = XPYKit/Classes/XPYAlertController.h; sourceTree = "<group>"; };
+		AC01D445A5433B74959EC9B8270A02FA /* XPYCategoryContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCategoryContentView.m; sourceTree = "<group>"; };
 		C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XPYKit.framework; path = XPYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C25CF427C1FCAEF408F7E85B3FFDEFD4 /* XPYCategoryContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPYCategoryContentView.h; path = XPYKit/Classes/XPYCategoryContentView.h; sourceTree = "<group>"; };
 		C436EFCFBE4A0054AFD012055867FB8B /* Pods-XPYKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XPYKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D9BB3CCEDFE12B742D48522430804F18 /* XPYAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYAlertManager.m; path = XPYKit/Classes/XPYAlertManager.m; sourceTree = "<group>"; };
-		ED95F6FA2974C871D6C70BE52BCDECEF /* XPYCategoryContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYCategoryContentView.m; path = XPYKit/Classes/XPYCategoryContentView.m; sourceTree = "<group>"; };
+		C624C251DCDF839ED45B18AB1BF32A85 /* XPYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYAlertController.h; sourceTree = "<group>"; };
+		C84575AE78C84F03830F6157D1EBC41F /* XPYKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPYKit.xcconfig; sourceTree = "<group>"; };
+		CE4A5A3FB34ABE4C3E3D96F7E74792E9 /* XPYDropdownConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownConfigurations.h; sourceTree = "<group>"; };
+		DF7F6C366D780CE2E3004476E26FD522 /* XPYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XPYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E22E737319143AB66F73710B1376F03A /* XPYDropdownCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownCell.m; sourceTree = "<group>"; };
+		E36D58D50CECE6FF0F9F2AE40BF4B49F /* XPYAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYAlertManager.m; sourceTree = "<group>"; };
 		EE175C4502FF213D8143F8AEBC0F3EF1 /* Pods-XPYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE56134E9B3A6D6C69F9C314AD4BC557 /* XPYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPYKit.modulemap; sourceTree = "<group>"; };
-		EE586EFEBDD6D9F8CECBC477A6341850 /* XPYCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPYCopyLabel.m; path = XPYKit/Classes/XPYCopyLabel.m; sourceTree = "<group>"; };
 		F2E206F10073146121A3619EE59E8192 /* Pods-XPYKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPYKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		F4356C53BDF345B7F8E036F518C4289F /* Pods_XPYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XPYKit_Tests.framework; path = "Pods-XPYKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F634E42D83D0F05C66552DD8095BA7D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FE50C7822F1081DE925BD3AB4EDF9788 /* Pods-XPYKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,11 +116,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CBDA5B67C22DE9E267DED7A4D7C9F98 /* Frameworks */ = {
+		404B9F6A35CE16D3A29B6F427ECFD804 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42923BD822D41D3AF2A8AEAB9000B541 /* Foundation.framework in Frameworks */,
+				414295ED905200F2F672651B0D9D2DF2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,15 +135,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041C274BD537ACC74FFED546D2A21F19 /* Support Files */ = {
+		03E59C27BDB665EF72B97E6E8CC9CA50 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE56134E9B3A6D6C69F9C314AD4BC557 /* XPYKit.modulemap */,
-				8B0A4411B311DB07294092215F5005D7 /* XPYKit.xcconfig */,
-				610701290CC688E15E61947A3D2B7E7A /* XPYKit-dummy.m */,
-				30F5897AE209766D68D7503B77DE8C6C /* XPYKit-Info.plist */,
-				BDA2EF0B80CB5BBA4D399FCA3ED923E0 /* XPYKit-prefix.pch */,
-				A496BBDB4CB9A135AE823CD8805D4C2E /* XPYKit-umbrella.h */,
+				455AF5D0FA88858B948E9018E33C1B64 /* XPYKit.modulemap */,
+				C84575AE78C84F03830F6157D1EBC41F /* XPYKit.xcconfig */,
+				141D67C1B5E79B605870A4E28F3FD85E /* XPYKit-dummy.m */,
+				1DF6AC901144020A835DBCE817F5A425 /* XPYKit-Info.plist */,
+				99ACD8FBF21981089D4349A258BD83E1 /* XPYKit-prefix.pch */,
+				4D153B3471FC199D551B35D28672F5C2 /* XPYKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XPYKit";
@@ -148,6 +166,69 @@
 			path = "Target Support Files/Pods-XPYKit_Example";
 			sourceTree = "<group>";
 		};
+		2069D636AC66BBC081ECCF4B41532433 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				60DE8407AA42904C764C2EE85BB34DFC /* LICENSE */,
+				31AB4E475A571C9DB05E95E0EC87AFE4 /* README.md */,
+				DF7F6C366D780CE2E3004476E26FD522 /* XPYKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6778E160AB9669FD023D415588868D42 /* XPYCopyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				3EA7F58B0754B98A8648AFE4F0DF8B45 /* XPYCopyLabel.h */,
+				97BFED6CCF966AB638CE3E7A6D9CC872 /* XPYCopyLabel.m */,
+			);
+			name = XPYCopyLabel;
+			path = XPYKit/Classes/XPYCopyLabel;
+			sourceTree = "<group>";
+		};
+		6C9CE43A047BE39ADF649B347261D94C /* XPYDropdownView */ = {
+			isa = PBXGroup;
+			children = (
+				9313E712D876D230CECE94E9354869EF /* XPYDropdownCell.h */,
+				E22E737319143AB66F73710B1376F03A /* XPYDropdownCell.m */,
+				CE4A5A3FB34ABE4C3E3D96F7E74792E9 /* XPYDropdownConfigurations.h */,
+				18A5079EED4D638AC4DB9F7C0E94F441 /* XPYDropdownConfigurations.m */,
+				5724C520FA9B5E00491407BB2F9CCFF2 /* XPYDropdownDefine.h */,
+				924902B4F46C51F2D86E33CA477A17ED /* XPYDropdownItemModel.h */,
+				6E8CA7BCADB3D82B45306B3AE27A70E7 /* XPYDropdownItemModel.m */,
+				5235763007AF5E177DDCF648F9FE1B45 /* XPYDropdownView.h */,
+				4797DE09556497779D5CE1067BB55CA4 /* XPYDropdownView.m */,
+			);
+			name = XPYDropdownView;
+			path = XPYKit/Classes/XPYDropdownView;
+			sourceTree = "<group>";
+		};
+		808414909BEA028B6C8C2E9FDD98A6D2 /* XPYKit */ = {
+			isa = PBXGroup;
+			children = (
+				2069D636AC66BBC081ECCF4B41532433 /* Pod */,
+				03E59C27BDB665EF72B97E6E8CC9CA50 /* Support Files */,
+				873D06EF0B7CFAF92436E138B2634264 /* XPYAlert */,
+				A7F2BCA3EE82DB6366226E265424AD07 /* XPYCategoryView */,
+				6778E160AB9669FD023D415588868D42 /* XPYCopyLabel */,
+				6C9CE43A047BE39ADF649B347261D94C /* XPYDropdownView */,
+			);
+			name = XPYKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		873D06EF0B7CFAF92436E138B2634264 /* XPYAlert */ = {
+			isa = PBXGroup;
+			children = (
+				C624C251DCDF839ED45B18AB1BF32A85 /* XPYAlertController.h */,
+				6D4DD4F1BB5858766F55637A286767F8 /* XPYAlertController.m */,
+				19433181405F55C8E9EE1A1922D020CD /* XPYAlertManager.h */,
+				E36D58D50CECE6FF0F9F2AE40BF4B49F /* XPYAlertManager.m */,
+			);
+			name = XPYAlert;
+			path = XPYKit/Classes/XPYAlert;
+			sourceTree = "<group>";
+		};
 		9907520785FCA6AFEBE1CAC13C83175D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,12 +239,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B4983E424B057523A48C47FE59F7166 /* Development Pods */ = {
+		A7F2BCA3EE82DB6366226E265424AD07 /* XPYCategoryView */ = {
 			isa = PBXGroup;
 			children = (
-				B5D53B3B900C7FCF3D8EA9DCA9FAAE94 /* XPYKit */,
+				820CFE96DD05F42FD87CD8CAF6C0448B /* XPYCategoryContentView.h */,
+				AC01D445A5433B74959EC9B8270A02FA /* XPYCategoryContentView.m */,
+				80D68FEA732A042D508258B4B7DD23F2 /* XPYCategoryTitleView.h */,
+				307FE1B5ED89AA24F410AE59BBF4D957 /* XPYCategoryTitleView.m */,
 			);
-			name = "Development Pods";
+			name = XPYCategoryView;
+			path = XPYKit/Classes/XPYCategoryView;
 			sourceTree = "<group>";
 		};
 		B419A56CBBB3CC231696E603E651B69C /* Pods-XPYKit_Tests */ = {
@@ -182,24 +267,12 @@
 			path = "Target Support Files/Pods-XPYKit_Tests";
 			sourceTree = "<group>";
 		};
-		B5D53B3B900C7FCF3D8EA9DCA9FAAE94 /* XPYKit */ = {
+		BD81F071D88620EB5E6A663B822C580C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BDD5CBF589596802AEBE79EAE1348551 /* XPYAlertController.h */,
-				79A06B21B1C7C6BC5024CBCDFB6DA2DA /* XPYAlertController.m */,
-				1C463B3ADE5F1F3C3C9F5BAF89FD8065 /* XPYAlertManager.h */,
-				D9BB3CCEDFE12B742D48522430804F18 /* XPYAlertManager.m */,
-				C25CF427C1FCAEF408F7E85B3FFDEFD4 /* XPYCategoryContentView.h */,
-				ED95F6FA2974C871D6C70BE52BCDECEF /* XPYCategoryContentView.m */,
-				1E77693C8E6A9696B9CDA98319A71087 /* XPYCategoryTitleView.h */,
-				7DE34E7D60CEF34E2750E9F3ADA346ED /* XPYCategoryTitleView.m */,
-				625701A0A04895BE58A57D43B06BB780 /* XPYCopyLabel.h */,
-				EE586EFEBDD6D9F8CECBC477A6341850 /* XPYCopyLabel.m */,
-				CEA1D7E9E13FA81EE5AD591C0C77B85A /* Pod */,
-				041C274BD537ACC74FFED546D2A21F19 /* Support Files */,
+				808414909BEA028B6C8C2E9FDD98A6D2 /* XPYKit */,
 			);
-			name = XPYKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -210,21 +283,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CEA1D7E9E13FA81EE5AD591C0C77B85A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				54B23623E45CB48B7ADEEC93F9D7C955 /* LICENSE */,
-				F634E42D83D0F05C66552DD8095BA7D2 /* README.md */,
-				58BD338C1D5890FC1E167A6EB09EA1DD /* XPYKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9B4983E424B057523A48C47FE59F7166 /* Development Pods */,
+				BD81F071D88620EB5E6A663B822C580C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9907520785FCA6AFEBE1CAC13C83175D /* Products */,
 				D6E70D5137B74AB33CB2C1778376FF71 /* Targets Support Files */,
@@ -259,16 +322,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5ABA5DE6E429C26E8CEB4FF43F1133DA /* Headers */ = {
+		399196F1FECA762C7B6427DA0C3800D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F720E0F43F24BEDE3FADB1EF19D4D883 /* XPYAlertController.h in Headers */,
-				070AD8A43A880D02340E5E347860D767 /* XPYAlertManager.h in Headers */,
-				38DD9503532C96BBB8992FE211B8B811 /* XPYCategoryContentView.h in Headers */,
-				4478AB7A856EFC069FF655CB85DFCC23 /* XPYCategoryTitleView.h in Headers */,
-				E90F3A7775B6311A54BAAF3D563A8F0D /* XPYCopyLabel.h in Headers */,
-				19ACB9D75A09A1BAFDF196EE7B938AD3 /* XPYKit-umbrella.h in Headers */,
+				B34ED2CBA4B7269B67341A1BE5263D06 /* XPYAlertController.h in Headers */,
+				FC0F027684BBFBFE18270C7E1FEC1170 /* XPYAlertManager.h in Headers */,
+				42CD5FACE3BA0F23F5E528B27AB65EC7 /* XPYCategoryContentView.h in Headers */,
+				592B4A328D886A7ABB9509F98B80C066 /* XPYCategoryTitleView.h in Headers */,
+				20B2705CF40DAC97B1ADF67AB208EE73 /* XPYCopyLabel.h in Headers */,
+				FA4EFDF5087BD8F208E063FFB7898A11 /* XPYDropdownCell.h in Headers */,
+				EF203C37C66C94CE9DB306DC1E159F07 /* XPYDropdownConfigurations.h in Headers */,
+				B6ABA13FC2E13A270CB8639C7EB9BFB9 /* XPYDropdownDefine.h in Headers */,
+				69C345A8888ACD9662E5948FB508A4C4 /* XPYDropdownItemModel.h in Headers */,
+				5FD7C1F09EE863BB45ED8CDD5FEB9773 /* XPYDropdownView.h in Headers */,
+				E7507D3AD2110D53DE93C41C411DA7AE /* XPYKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +353,12 @@
 /* Begin PBXNativeTarget section */
 		6D96844B958A113E48C6E6D4BE2008F7 /* XPYKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6576E5B3D67FB894FFC820CFA5BD7435 /* Build configuration list for PBXNativeTarget "XPYKit" */;
+			buildConfigurationList = B93242BB88E4179756242D7A7023FBCA /* Build configuration list for PBXNativeTarget "XPYKit" */;
 			buildPhases = (
-				5ABA5DE6E429C26E8CEB4FF43F1133DA /* Headers */,
-				45BF442E064445F32CD9C15A72BE775D /* Sources */,
-				4CBDA5B67C22DE9E267DED7A4D7C9F98 /* Frameworks */,
-				14D6D336301126150638DCD04F46AEE9 /* Resources */,
+				399196F1FECA762C7B6427DA0C3800D3 /* Headers */,
+				8052FC7B3B3DEE9A0FA3B455BF69C05F /* Sources */,
+				404B9F6A35CE16D3A29B6F427ECFD804 /* Frameworks */,
+				9A417684AFDA93B5BAF118072825A6A3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -369,14 +437,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14D6D336301126150638DCD04F46AEE9 /* Resources */ = {
+		998553D9366589D2C3A2DD9EA9AE3999 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		998553D9366589D2C3A2DD9EA9AE3999 /* Resources */ = {
+		9A417684AFDA93B5BAF118072825A6A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,19 +461,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45BF442E064445F32CD9C15A72BE775D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B832CF851F15F846BD2A18E3F3DA188 /* XPYAlertController.m in Sources */,
-				E0508BC966053ACD976F4628D127EF15 /* XPYAlertManager.m in Sources */,
-				049B3C2E6A8FFD069933CC55E2C22FF7 /* XPYCategoryContentView.m in Sources */,
-				FF9E885C9997A33D7C5BECE8C10899DC /* XPYCategoryTitleView.m in Sources */,
-				F7DFE7F2C8384C61556D28138FDAC0B0 /* XPYCopyLabel.m in Sources */,
-				51F83E82F45E596508F8AC6687161E18 /* XPYKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		57E642B68051BABB35B5D48D83484054 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,6 +474,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E7E1409993C4154028A91CB0407AED4 /* Pods-XPYKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8052FC7B3B3DEE9A0FA3B455BF69C05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A359E47DB2E5C0ED8C827A5CA9401C /* XPYAlertController.m in Sources */,
+				744ACE906D9FBC03DEEEB67154233786 /* XPYAlertManager.m in Sources */,
+				18689610102A59F30BAE635613BE5677 /* XPYCategoryContentView.m in Sources */,
+				9DD6ED5033C972BECD2511024E69F066 /* XPYCategoryTitleView.m in Sources */,
+				4B15A03C7DEDD25EC66AE4AC099E43FD /* XPYCopyLabel.m in Sources */,
+				F32D66A6BBA065F395CC322F79EBA5A9 /* XPYDropdownCell.m in Sources */,
+				AE3B216EE26EF39E6F99A05E5C3CEB8F /* XPYDropdownConfigurations.m in Sources */,
+				57D71D830DF666FD3F51075CA51F1552 /* XPYDropdownItemModel.m in Sources */,
+				FEC989AC20794F0B13DB1C56779F3BE1 /* XPYDropdownView.m in Sources */,
+				D5088780948BAD3E1FE5FA25099FE9EF /* XPYKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,9 +638,9 @@
 			};
 			name = Release;
 		};
-		5EB20C02BA4758DD1DC1C0C56F554D96 /* Debug */ = {
+		525B5F7A65E9116C6FA08D8BE6E27A97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B0A4411B311DB07294092215F5005D7 /* XPYKit.xcconfig */;
+			baseConfigurationReference = C84575AE78C84F03830F6157D1EBC41F /* XPYKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,10 +664,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		76961B323C2FA5956F04A0653A1D464E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -695,9 +768,9 @@
 			};
 			name = Debug;
 		};
-		C0D12CC73B0BA4B95C8E12D3845E9BD2 /* Release */ = {
+		C1202D5040821AFBBA9C3CAF4EF9A91A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B0A4411B311DB07294092215F5005D7 /* XPYKit.xcconfig */;
+			baseConfigurationReference = C84575AE78C84F03830F6157D1EBC41F /* XPYKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -721,11 +794,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F45083EA31F2CDFF1C70A022E816A5EF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -773,20 +845,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6576E5B3D67FB894FFC820CFA5BD7435 /* Build configuration list for PBXNativeTarget "XPYKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5EB20C02BA4758DD1DC1C0C56F554D96 /* Debug */,
-				C0D12CC73B0BA4B95C8E12D3845E9BD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		65FB7A23E7214FF974D7633919174881 /* Build configuration list for PBXNativeTarget "Pods-XPYKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2770C3D0D5B8CAE706B998FC48469A24 /* Debug */,
 				76961B323C2FA5956F04A0653A1D464E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93242BB88E4179756242D7A7023FBCA /* Build configuration list for PBXNativeTarget "XPYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1202D5040821AFBBA9C3CAF4EF9A91A /* Debug */,
+				525B5F7A65E9116C6FA08D8BE6E27A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

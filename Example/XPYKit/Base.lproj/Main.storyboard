@@ -46,11 +46,17 @@
                             <constraint firstAttribute="trailing" secondItem="S9r-Cz-qth" secondAttribute="trailing" id="mxo-9Z-0bi"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Demo" id="LqM-x5-TrI"/>
+                    <navigationItem key="navigationItem" title="Demo" id="LqM-x5-TrI">
+                        <barButtonItem key="rightBarButtonItem" title="下拉菜单" id="cFT-fQ-JiH">
+                            <connections>
+                                <action selector="dropdownAction:" destination="whP-gf-Uak" id="kbM-JH-ZVK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="559" y="360"/>
+            <point key="canvasLocation" x="1670" y="236"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zkM-Iv-yQk">
@@ -66,7 +72,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sm0-cT-69C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="339"/>
+            <point key="canvasLocation" x="961" y="237"/>
         </scene>
     </scenes>
 </document>
