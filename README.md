@@ -63,8 +63,36 @@ pod 'XPYKit'
 
 5、DropdownView
 
-![DropdownView](Example/ExampleImages/dropdown_view.gif)
+    XPYDropdownConfigurations *config = [[XPYDropdownConfigurations alloc] init];
+    // 背景颜色
+    config.mainBackgroundColor = [UIColor colorWithWhite:0 alpha:0.2];
+    // 下拉菜单颜色
+    config.dropdownBackgroundColor = [UIColor blackColor];
+    // 分割线颜色
+    config.separatorColor = [UIColor whiteColor];
+    // cell选中时颜色
+    config.cellSelectedColor = [UIColor colorWithWhite:0 alpha:0.2];
+    // 文字颜色
+    config.titleColor = [UIColor whiteColor];
+    // 下拉菜单宽度
+    config.dropdownWidth = 130;
+    // 箭头左下角在菜单视图的x坐标
+    config.arrowOriginX = 100;
+    // 隐藏箭头
+    //config.arrowHeight = 0;
 
+    XPYDropdownItemModel *model1 = [XPYDropdownItemModel makeModel:1 icon:[UIImage imageNamed:@"menu_write"] title:@"编辑" titleColor:nil];
+    XPYDropdownItemModel *model2 = [XPYDropdownItemModel makeModel:2 icon:[UIImage imageNamed:@"menu_share"] title:@"分享" titleColor:nil];
+    XPYDropdownItemModel *model3 = [XPYDropdownItemModel makeModel:3 icon:[UIImage imageNamed:@"menu_clear"] title:@"删除" titleColor:nil];
+    
+    CGFloat pointX = CGRectGetWidth(self.view.bounds) - 50.f;
+    CGFloat pointY = [self isIphoneX] ? 88.f : 64.f;
+    XPYDropdownView *dropdownView = [[XPYDropdownView alloc] initWithItemsArray:@[model1, model2, model3] configurations:config arrowPoint:CGPointMake(pointX, pointY)];
+    //设置代理
+    //dropdownView.delegate = self;
+    [dropdownView show];
+
+![DropdownView](Example/ExampleImages/dropdown_view.gif)
 
 
 ## Author
