@@ -1,5 +1,5 @@
 PODS:
-  - XPYKit (1.0.1)
+  - XPYKit (1.0.2)
 
 DEPENDENCIES:
   - XPYKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XPYKit: aceb23a1da6a208b493c3af034b684f21e0f469e
+  XPYKit: ff25b35eded98d4360ad4eef991bf1b366a8fa05
 
 PODFILE CHECKSUM: 3727d67ee3b06ffb22ee7a1bcdbdda47eb3a0064
 
