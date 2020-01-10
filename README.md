@@ -18,7 +18,7 @@ XPYKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'XPYKit'
+pod 'XPYKit' :git => 'https://github.com/xiangxiaopenyou/XPYKit.git
 ```
 
 ## Usage
