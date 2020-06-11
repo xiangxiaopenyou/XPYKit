@@ -7,37 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18689610102A59F30BAE635613BE5677 /* XPYCategoryContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC01D445A5433B74959EC9B8270A02FA /* XPYCategoryContentView.m */; };
+		1DA8294AE191A82508715F6C8D496848 /* XPYCopyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B5803912254602E548D9ED054504BCE4 /* XPYCopyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E7E1409993C4154028A91CB0407AED4 /* Pods-XPYKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E206F10073146121A3619EE59E8192 /* Pods-XPYKit_Tests-dummy.m */; };
-		20B2705CF40DAC97B1ADF67AB208EE73 /* XPYCopyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA7F58B0754B98A8648AFE4F0DF8B45 /* XPYCopyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221C4AF16C1799F35679A0ACF3CEF74F /* XPYDropdownCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 554486F100E4D86206C84ED20503ADA7 /* XPYDropdownCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265FD16D4087866C3026E16E11A8ABF4 /* MBProgressHUD+XPYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CEB1494F09CF5EF67719964799CAA7 /* MBProgressHUD+XPYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27D2EE8A9A2FFBCCC0B3FCE25C8BA248 /* Pods-XPYKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B8947A69F75114A19BA6AE92C356F9 /* Pods-XPYKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3287C351A85CE913C8815623EC9FA60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3436271FB8D8379264065DB853118EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		414295ED905200F2F672651B0D9D2DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		42CD5FACE3BA0F23F5E528B27AB65EC7 /* XPYCategoryContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 820CFE96DD05F42FD87CD8CAF6C0448B /* XPYCategoryContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B15A03C7DEDD25EC66AE4AC099E43FD /* XPYCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFED6CCF966AB638CE3E7A6D9CC872 /* XPYCopyLabel.m */; };
-		57D71D830DF666FD3F51075CA51F1552 /* XPYDropdownItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8CA7BCADB3D82B45306B3AE27A70E7 /* XPYDropdownItemModel.m */; };
-		592B4A328D886A7ABB9509F98B80C066 /* XPYCategoryTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D68FEA732A042D508258B4B7DD23F2 /* XPYCategoryTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FD7C1F09EE863BB45ED8CDD5FEB9773 /* XPYDropdownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5235763007AF5E177DDCF648F9FE1B45 /* XPYDropdownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69C345A8888ACD9662E5948FB508A4C4 /* XPYDropdownItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 924902B4F46C51F2D86E33CA477A17ED /* XPYDropdownItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		744ACE906D9FBC03DEEEB67154233786 /* XPYAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E36D58D50CECE6FF0F9F2AE40BF4B49F /* XPYAlertManager.m */; };
-		9DD6ED5033C972BECD2511024E69F066 /* XPYCategoryTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307FE1B5ED89AA24F410AE59BBF4D957 /* XPYCategoryTitleView.m */; };
-		A6A359E47DB2E5C0ED8C827A5CA9401C /* XPYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4DD4F1BB5858766F55637A286767F8 /* XPYAlertController.m */; };
-		AE3B216EE26EF39E6F99A05E5C3CEB8F /* XPYDropdownConfigurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5079EED4D638AC4DB9F7C0E94F441 /* XPYDropdownConfigurations.m */; };
-		B34ED2CBA4B7269B67341A1BE5263D06 /* XPYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = C624C251DCDF839ED45B18AB1BF32A85 /* XPYAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6ABA13FC2E13A270CB8639C7EB9BFB9 /* XPYDropdownDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5724C520FA9B5E00491407BB2F9CCFF2 /* XPYDropdownDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6D592E5209138BDAD8254635CBC8F88 /* Pods-XPYKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB61C7F9DB31FD8C284DF9153BF085E /* Pods-XPYKit_Example-dummy.m */; };
-		D5088780948BAD3E1FE5FA25099FE9EF /* XPYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 141D67C1B5E79B605870A4E28F3FD85E /* XPYKit-dummy.m */; };
-		D963CF40B9BDE01CF15FFBA9184E3888 /* Pods-XPYKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 937B88FBD5608A648E348ACC46C65C41 /* Pods-XPYKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7507D3AD2110D53DE93C41C411DA7AE /* XPYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D153B3471FC199D551B35D28672F5C2 /* XPYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF203C37C66C94CE9DB306DC1E159F07 /* XPYDropdownConfigurations.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4A5A3FB34ABE4C3E3D96F7E74792E9 /* XPYDropdownConfigurations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F32D66A6BBA065F395CC322F79EBA5A9 /* XPYDropdownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E737319143AB66F73710B1376F03A /* XPYDropdownCell.m */; };
-		FA4EFDF5087BD8F208E063FFB7898A11 /* XPYDropdownCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9313E712D876D230CECE94E9354869EF /* XPYDropdownCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC0F027684BBFBFE18270C7E1FEC1170 /* XPYAlertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19433181405F55C8E9EE1A1922D020CD /* XPYAlertManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEC989AC20794F0B13DB1C56779F3BE1 /* XPYDropdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4797DE09556497779D5CE1067BB55CA4 /* XPYDropdownView.m */; };
+		3287C351A85CE913C8815623EC9FA60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
+		360BD5596B7CD8CC9F07B759CC012FE8 /* Pods-XPYKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB61C7F9DB31FD8C284DF9153BF085E /* Pods-XPYKit_Example-dummy.m */; };
+		39045CC8A1D5F99ACEE9253CFE2BB4DD /* XPYDropdownConfigurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE1316116A9CACDB771DD3CBC516361 /* XPYDropdownConfigurations.m */; };
+		3BAA0B6E9D7878A233CE89D3E9D67D39 /* XPYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE7E14D871741E06456C56FCCD471AD /* XPYAlertController.m */; };
+		3EC28311FB50939CA79471362F8FBBE6 /* XPYCategoryContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FC9FFA5D9D56B2FF3B566770B9DECA /* XPYCategoryContentView.m */; };
+		449F1B3C2961059F6476990540894B87 /* XPYDropdownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2999522A3D096F6A4953F65FC8103 /* XPYDropdownCell.m */; };
+		5454CF1C028201ADAFCBC55E0CC8446E /* XPYDropdownItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC2249FFD9A307C86BA4E839B452CE9 /* XPYDropdownItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55060EB28CE3C341270DA938366AD72A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
+		587D3FF0290C2E8F426C256B97188764 /* XPYCategoryTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31685CC55E56FB08C73A00B6C8655151 /* XPYCategoryTitleView.m */; };
+		58F6A5B31130A7732959592265043385 /* XPYDropdownConfigurations.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B426A5059DC288DE5A1A90CA272636 /* XPYDropdownConfigurations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */; };
+		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
+		76208FA5B8A18304686D390DA11A9495 /* XPYAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1B7FC9BE64D1D71766A32B931CA4BA /* XPYAlertManager.m */; };
+		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86CB60B36CBADBA3F11CFF10C238E066 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */; };
+		8824DD56CACC0643E6534C7DF5FA3A5E /* XPYCategoryTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB6308B55F3DBC20E3D4134E84FE609 /* XPYCategoryTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8828568C4571A7C7531AE4C45C028EBD /* MBProgressHUD+XPYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1E3CAF1BD9F667F5A26F4000C3132C /* MBProgressHUD+XPYExtension.m */; };
+		8B8860261A7B46BD30C9652AC5C8895E /* XPYAlertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992AF4E2D6D36564C28513BB0F2E47 /* XPYAlertManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C7E88CA63CA0CE0B32741531AEEC5AF /* XPYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B2B858949292E27B7B1FBE07F47CDA /* XPYAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95AF25CFC0FDAA73FCE9B0688B312EF3 /* XPYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E0E8365460ED9B48E7E0D690FC7B79 /* XPYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A601994621C892656F60D1A1292A9565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */; };
+		AFE5A553F93F4BAC6B09C08B91DBC9B0 /* XPYDropdownDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4BA3276E6006487F1A545ADCCD8C2A /* XPYDropdownDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC620332762C75EFBE1D30A9D4D42D8 /* XPYDropdownItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53422F95363ACFFE1AF1E16E6866E4A1 /* XPYDropdownItemModel.m */; };
+		D053D7F09F71B82C44BD39ACCBB56952 /* XPYDropdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EEE7D246E9CD8665DC45BF2BB53CAF /* XPYDropdownView.m */; };
+		D921F641EDDD15B58BFA469DB44FE041 /* XPYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E244751A25D1758EA2806351D554F14D /* XPYKit-dummy.m */; };
+		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
+		E2E4E4FCA228E031F6429E4BAA6E09C5 /* XPYDropdownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2C77543C6FE3C9A30D61E971366A5F /* XPYDropdownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8B880AADBFAFE21400CF9CCCA51A579 /* XPYCategoryContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BD6B4A988E320D0E63CD74162ECC1A /* XPYCategoryContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA09DE2AF3F9A7EDC220A2691FB78D4 /* XPYCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD5C1E94832E292849374178AD583A8 /* XPYCopyLabel.m */; };
+		F373F6371B95186BC5A275FA38EB9A72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
+		FAE7340DEBF58B9191A761D30BD3A825 /* Pods-XPYKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 937B88FBD5608A648E348ACC46C65C41 /* Pods-XPYKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		293C03C08B991AC5D4D6795DA6F4E7C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D96844B958A113E48C6E6D4BE2008F7;
+			remoteInfo = XPYKit;
+		};
+		4A3C01E3ECF012947F30B14D5C5B1A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
 		4C1A3FAAFBFFDC24E7B399808300A2C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -45,82 +69,92 @@
 			remoteGlobalIDString = BC82B17DC6E7A3FDDEAA9C2C756BBF36;
 			remoteInfo = "Pods-XPYKit_Example";
 		};
-		95A97CE92CAC5E5A482480F6E6469B45 /* PBXContainerItemProxy */ = {
+		FB8B8E340499859818C02FC46DFEA0E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D96844B958A113E48C6E6D4BE2008F7;
-			remoteInfo = XPYKit;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		042E49312EE741BB2B2297EFC37F3176 /* Pods-XPYKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XPYKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		05696DE31756A38977A77E5A595A05A0 /* Pods-XPYKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		074A060EB4C713186899C5A954C3C413 /* XPYKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPYKit.release.xcconfig; sourceTree = "<group>"; };
 		1356FD9563F7B1309567986A13079278 /* Pods-XPYKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XPYKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		141D67C1B5E79B605870A4E28F3FD85E /* XPYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPYKit-dummy.m"; sourceTree = "<group>"; };
-		18A5079EED4D638AC4DB9F7C0E94F441 /* XPYDropdownConfigurations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownConfigurations.m; sourceTree = "<group>"; };
-		19433181405F55C8E9EE1A1922D020CD /* XPYAlertManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYAlertManager.h; sourceTree = "<group>"; };
+		14B2B858949292E27B7B1FBE07F47CDA /* XPYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYAlertController.h; sourceTree = "<group>"; };
+		1BB6308B55F3DBC20E3D4134E84FE609 /* XPYCategoryTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCategoryTitleView.h; sourceTree = "<group>"; };
 		1C488DDE13666CF71D5B7ED1117DEA38 /* Pods-XPYKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1DF6AC901144020A835DBCE817F5A425 /* XPYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XPYKit-Info.plist"; sourceTree = "<group>"; };
-		307FE1B5ED89AA24F410AE59BBF4D957 /* XPYCategoryTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCategoryTitleView.m; sourceTree = "<group>"; };
-		31AB4E475A571C9DB05E95E0EC87AFE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		220A6F8436759753C1D6AFCA309E5072 /* XPYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XPYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31685CC55E56FB08C73A00B6C8655151 /* XPYCategoryTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCategoryTitleView.m; sourceTree = "<group>"; };
+		3BA2999522A3D096F6A4953F65FC8103 /* XPYDropdownCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownCell.m; sourceTree = "<group>"; };
 		3CB765E8C22B7576EC58F8F9BFEADDE1 /* Pods_XPYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XPYKit_Example.framework; path = "Pods-XPYKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EA7F58B0754B98A8648AFE4F0DF8B45 /* XPYCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCopyLabel.h; sourceTree = "<group>"; };
-		455AF5D0FA88858B948E9018E33C1B64 /* XPYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPYKit.modulemap; sourceTree = "<group>"; };
-		4797DE09556497779D5CE1067BB55CA4 /* XPYDropdownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownView.m; sourceTree = "<group>"; };
-		4D153B3471FC199D551B35D28672F5C2 /* XPYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-umbrella.h"; sourceTree = "<group>"; };
+		4A30C1D52D63320152373A926F6275B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4A52B1BD897B1E36A6C0FA1849C7AACF /* XPYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-prefix.pch"; sourceTree = "<group>"; };
 		4EB61C7F9DB31FD8C284DF9153BF085E /* Pods-XPYKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPYKit_Example-dummy.m"; sourceTree = "<group>"; };
-		5235763007AF5E177DDCF648F9FE1B45 /* XPYDropdownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownView.h; sourceTree = "<group>"; };
-		5724C520FA9B5E00491407BB2F9CCFF2 /* XPYDropdownDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownDefine.h; sourceTree = "<group>"; };
-		60DE8407AA42904C764C2EE85BB34DFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		53422F95363ACFFE1AF1E16E6866E4A1 /* XPYDropdownItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownItemModel.m; sourceTree = "<group>"; };
+		554486F100E4D86206C84ED20503ADA7 /* XPYDropdownCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownCell.h; sourceTree = "<group>"; };
+		56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		6166AEB0711BD136F42FD7DC68CEA958 /* Pods-XPYKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		61CEB1494F09CF5EF67719964799CAA7 /* MBProgressHUD+XPYExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XPYExtension.h"; sourceTree = "<group>"; };
+		64BD6B4A988E320D0E63CD74162ECC1A /* XPYCategoryContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCategoryContentView.h; sourceTree = "<group>"; };
 		669DFFC7F0C1C0F20A97D09936F06CE7 /* Pods-XPYKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPYKit_Example.modulemap"; sourceTree = "<group>"; };
-		6D4DD4F1BB5858766F55637A286767F8 /* XPYAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYAlertController.m; sourceTree = "<group>"; };
-		6E8CA7BCADB3D82B45306B3AE27A70E7 /* XPYDropdownItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownItemModel.m; sourceTree = "<group>"; };
+		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6CE1316116A9CACDB771DD3CBC516361 /* XPYDropdownConfigurations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownConfigurations.m; sourceTree = "<group>"; };
+		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		6E7024ED366D7E905E40FAAF98F12F72 /* XPYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPYKit.modulemap; sourceTree = "<group>"; };
+		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		71B8947A69F75114A19BA6AE92C356F9 /* Pods-XPYKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPYKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7D896E2C4B04CB70993C0CB8E23A4B71 /* Pods-XPYKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPYKit_Tests.modulemap"; sourceTree = "<group>"; };
-		80D68FEA732A042D508258B4B7DD23F2 /* XPYCategoryTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCategoryTitleView.h; sourceTree = "<group>"; };
-		820CFE96DD05F42FD87CD8CAF6C0448B /* XPYCategoryContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCategoryContentView.h; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D98CD8CFFF4A8F382D5E64CE3F08729 /* Pods-XPYKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		8DA0116540B91E5E8400F7ACA6F1F89D /* XPYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPYKit.debug.xcconfig; sourceTree = "<group>"; };
+		8F2C77543C6FE3C9A30D61E971366A5F /* XPYDropdownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownView.h; sourceTree = "<group>"; };
 		90FC0A05A3BF62A41CFB987DA7FA895B /* Pods-XPYKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Example-Info.plist"; sourceTree = "<group>"; };
-		924902B4F46C51F2D86E33CA477A17ED /* XPYDropdownItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownItemModel.h; sourceTree = "<group>"; };
-		9313E712D876D230CECE94E9354869EF /* XPYDropdownCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownCell.h; sourceTree = "<group>"; };
 		937B88FBD5608A648E348ACC46C65C41 /* Pods-XPYKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPYKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		97BFED6CCF966AB638CE3E7A6D9CC872 /* XPYCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCopyLabel.m; sourceTree = "<group>"; };
-		99ACD8FBF21981089D4349A258BD83E1 /* XPYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E4BA3276E6006487F1A545ADCCD8C2A /* XPYDropdownDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownDefine.h; sourceTree = "<group>"; };
+		A2FC9FFA5D9D56B2FF3B566770B9DECA /* XPYCategoryContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCategoryContentView.m; sourceTree = "<group>"; };
+		A7992AF4E2D6D36564C28513BB0F2E47 /* XPYAlertManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYAlertManager.h; sourceTree = "<group>"; };
+		A7E0E8365460ED9B48E7E0D690FC7B79 /* XPYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-umbrella.h"; sourceTree = "<group>"; };
 		AB282FD2D74DDCC699271818883C4BE2 /* Pods-XPYKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AC01D445A5433B74959EC9B8270A02FA /* XPYCategoryContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCategoryContentView.m; sourceTree = "<group>"; };
+		AFE7E14D871741E06456C56FCCD471AD /* XPYAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYAlertController.m; sourceTree = "<group>"; };
+		B5803912254602E548D9ED054504BCE4 /* XPYCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCopyLabel.h; sourceTree = "<group>"; };
+		B9EEE7D246E9CD8665DC45BF2BB53CAF /* XPYDropdownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownView.m; sourceTree = "<group>"; };
+		BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XPYKit.framework; path = XPYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B426A5059DC288DE5A1A90CA272636 /* XPYDropdownConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownConfigurations.h; sourceTree = "<group>"; };
 		C436EFCFBE4A0054AFD012055867FB8B /* Pods-XPYKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XPYKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C624C251DCDF839ED45B18AB1BF32A85 /* XPYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYAlertController.h; sourceTree = "<group>"; };
-		C84575AE78C84F03830F6157D1EBC41F /* XPYKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPYKit.xcconfig; sourceTree = "<group>"; };
-		CE4A5A3FB34ABE4C3E3D96F7E74792E9 /* XPYDropdownConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownConfigurations.h; sourceTree = "<group>"; };
-		DF7F6C366D780CE2E3004476E26FD522 /* XPYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XPYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E22E737319143AB66F73710B1376F03A /* XPYDropdownCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownCell.m; sourceTree = "<group>"; };
-		E36D58D50CECE6FF0F9F2AE40BF4B49F /* XPYAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYAlertManager.m; sourceTree = "<group>"; };
+		D99F572EEC94588F4C5551563727C5D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DB1B7FC9BE64D1D71766A32B931CA4BA /* XPYAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYAlertManager.m; sourceTree = "<group>"; };
+		DE1E3CAF1BD9F667F5A26F4000C3132C /* MBProgressHUD+XPYExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XPYExtension.m"; sourceTree = "<group>"; };
+		E244751A25D1758EA2806351D554F14D /* XPYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPYKit-dummy.m"; sourceTree = "<group>"; };
 		EE175C4502FF213D8143F8AEBC0F3EF1 /* Pods-XPYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F05BC2AECA4F5965869B3FC2D800352F /* XPYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XPYKit-Info.plist"; sourceTree = "<group>"; };
+		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		F2E206F10073146121A3619EE59E8192 /* Pods-XPYKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPYKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		F4356C53BDF345B7F8E036F518C4289F /* Pods_XPYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XPYKit_Tests.framework; path = "Pods-XPYKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FAD5C1E94832E292849374178AD583A8 /* XPYCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCopyLabel.m; sourceTree = "<group>"; };
+		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		FE50C7822F1081DE925BD3AB4EDF9788 /* Pods-XPYKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFC2249FFD9A307C86BA4E839B452CE9 /* XPYDropdownItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownItemModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E724DB28706BF66EEFE1B5A4ED5675E /* Frameworks */ = {
+		1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3436271FB8D8379264065DB853118EDA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		404B9F6A35CE16D3A29B6F427ECFD804 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				414295ED905200F2F672651B0D9D2DF2 /* Foundation.framework in Frameworks */,
+				A601994621C892656F60D1A1292A9565 /* CoreGraphics.framework in Frameworks */,
+				FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */,
+				64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,23 +166,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2E796355805AE7D1ED1E53FE3CDA0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373F6371B95186BC5A275FA38EB9A72 /* Foundation.framework in Frameworks */,
+				86CB60B36CBADBA3F11CFF10C238E066 /* MBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B887AE73ABC84193D2AE41DEC42B0C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55060EB28CE3C341270DA938366AD72A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03E59C27BDB665EF72B97E6E8CC9CA50 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				455AF5D0FA88858B948E9018E33C1B64 /* XPYKit.modulemap */,
-				C84575AE78C84F03830F6157D1EBC41F /* XPYKit.xcconfig */,
-				141D67C1B5E79B605870A4E28F3FD85E /* XPYKit-dummy.m */,
-				1DF6AC901144020A835DBCE817F5A425 /* XPYKit-Info.plist */,
-				99ACD8FBF21981089D4349A258BD83E1 /* XPYKit-prefix.pch */,
-				4D153B3471FC199D551B35D28672F5C2 /* XPYKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XPYKit";
-			sourceTree = "<group>";
-		};
 		0C006F213BD58F63A3D149F5316D5C41 /* Pods-XPYKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,72 +203,57 @@
 			path = "Target Support Files/Pods-XPYKit_Example";
 			sourceTree = "<group>";
 		};
-		2069D636AC66BBC081ECCF4B41532433 /* Pod */ = {
+		319B7B77803A7217819AB2E719040C7D /* XPYProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				60DE8407AA42904C764C2EE85BB34DFC /* LICENSE */,
-				31AB4E475A571C9DB05E95E0EC87AFE4 /* README.md */,
-				DF7F6C366D780CE2E3004476E26FD522 /* XPYKit.podspec */,
+				61CEB1494F09CF5EF67719964799CAA7 /* MBProgressHUD+XPYExtension.h */,
+				DE1E3CAF1BD9F667F5A26F4000C3132C /* MBProgressHUD+XPYExtension.m */,
 			);
-			name = Pod;
+			name = XPYProgressHUD;
+			path = XPYKit/Classes/XPYProgressHUD;
 			sourceTree = "<group>";
 		};
-		6778E160AB9669FD023D415588868D42 /* XPYCopyLabel */ = {
+		325E91A783879D5C88037400BA00041B /* XPYCategoryView */ = {
 			isa = PBXGroup;
 			children = (
-				3EA7F58B0754B98A8648AFE4F0DF8B45 /* XPYCopyLabel.h */,
-				97BFED6CCF966AB638CE3E7A6D9CC872 /* XPYCopyLabel.m */,
+				64BD6B4A988E320D0E63CD74162ECC1A /* XPYCategoryContentView.h */,
+				A2FC9FFA5D9D56B2FF3B566770B9DECA /* XPYCategoryContentView.m */,
+				1BB6308B55F3DBC20E3D4134E84FE609 /* XPYCategoryTitleView.h */,
+				31685CC55E56FB08C73A00B6C8655151 /* XPYCategoryTitleView.m */,
 			);
-			name = XPYCopyLabel;
-			path = XPYKit/Classes/XPYCopyLabel;
+			name = XPYCategoryView;
+			path = XPYKit/Classes/XPYCategoryView;
 			sourceTree = "<group>";
 		};
-		6C9CE43A047BE39ADF649B347261D94C /* XPYDropdownView */ = {
+		37A81BB6BDAC1309DE24F4CE5F7A56FB /* XPYDropdownView */ = {
 			isa = PBXGroup;
 			children = (
-				9313E712D876D230CECE94E9354869EF /* XPYDropdownCell.h */,
-				E22E737319143AB66F73710B1376F03A /* XPYDropdownCell.m */,
-				CE4A5A3FB34ABE4C3E3D96F7E74792E9 /* XPYDropdownConfigurations.h */,
-				18A5079EED4D638AC4DB9F7C0E94F441 /* XPYDropdownConfigurations.m */,
-				5724C520FA9B5E00491407BB2F9CCFF2 /* XPYDropdownDefine.h */,
-				924902B4F46C51F2D86E33CA477A17ED /* XPYDropdownItemModel.h */,
-				6E8CA7BCADB3D82B45306B3AE27A70E7 /* XPYDropdownItemModel.m */,
-				5235763007AF5E177DDCF648F9FE1B45 /* XPYDropdownView.h */,
-				4797DE09556497779D5CE1067BB55CA4 /* XPYDropdownView.m */,
+				554486F100E4D86206C84ED20503ADA7 /* XPYDropdownCell.h */,
+				3BA2999522A3D096F6A4953F65FC8103 /* XPYDropdownCell.m */,
+				C2B426A5059DC288DE5A1A90CA272636 /* XPYDropdownConfigurations.h */,
+				6CE1316116A9CACDB771DD3CBC516361 /* XPYDropdownConfigurations.m */,
+				9E4BA3276E6006487F1A545ADCCD8C2A /* XPYDropdownDefine.h */,
+				FFC2249FFD9A307C86BA4E839B452CE9 /* XPYDropdownItemModel.h */,
+				53422F95363ACFFE1AF1E16E6866E4A1 /* XPYDropdownItemModel.m */,
+				8F2C77543C6FE3C9A30D61E971366A5F /* XPYDropdownView.h */,
+				B9EEE7D246E9CD8665DC45BF2BB53CAF /* XPYDropdownView.m */,
 			);
 			name = XPYDropdownView;
 			path = XPYKit/Classes/XPYDropdownView;
 			sourceTree = "<group>";
 		};
-		808414909BEA028B6C8C2E9FDD98A6D2 /* XPYKit */ = {
+		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2069D636AC66BBC081ECCF4B41532433 /* Pod */,
-				03E59C27BDB665EF72B97E6E8CC9CA50 /* Support Files */,
-				873D06EF0B7CFAF92436E138B2634264 /* XPYAlert */,
-				A7F2BCA3EE82DB6366226E265424AD07 /* XPYCategoryView */,
-				6778E160AB9669FD023D415588868D42 /* XPYCopyLabel */,
-				6C9CE43A047BE39ADF649B347261D94C /* XPYDropdownView */,
+				7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */,
 			);
-			name = XPYKit;
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		873D06EF0B7CFAF92436E138B2634264 /* XPYAlert */ = {
+		4558866CF5E3031DA968DFCCC13D5D23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C624C251DCDF839ED45B18AB1BF32A85 /* XPYAlertController.h */,
-				6D4DD4F1BB5858766F55637A286767F8 /* XPYAlertController.m */,
-				19433181405F55C8E9EE1A1922D020CD /* XPYAlertManager.h */,
-				E36D58D50CECE6FF0F9F2AE40BF4B49F /* XPYAlertManager.m */,
-			);
-			name = XPYAlert;
-			path = XPYKit/Classes/XPYAlert;
-			sourceTree = "<group>";
-		};
-		9907520785FCA6AFEBE1CAC13C83175D /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
 				3CB765E8C22B7576EC58F8F9BFEADDE1 /* Pods_XPYKit_Example.framework */,
 				F4356C53BDF345B7F8E036F518C4289F /* Pods_XPYKit_Tests.framework */,
 				C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */,
@@ -239,16 +261,55 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7F2BCA3EE82DB6366226E265424AD07 /* XPYCategoryView */ = {
+		49DF5BAE7709B0460CC3643558F4D6BB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				820CFE96DD05F42FD87CD8CAF6C0448B /* XPYCategoryContentView.h */,
-				AC01D445A5433B74959EC9B8270A02FA /* XPYCategoryContentView.m */,
-				80D68FEA732A042D508258B4B7DD23F2 /* XPYCategoryTitleView.h */,
-				307FE1B5ED89AA24F410AE59BBF4D957 /* XPYCategoryTitleView.m */,
+				071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */,
+				F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */,
+				BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */,
 			);
-			name = XPYCategoryView;
-			path = XPYKit/Classes/XPYCategoryView;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A0ADC6DFED96DB9F13B002473B37E8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E7024ED366D7E905E40FAAF98F12F72 /* XPYKit.modulemap */,
+				E244751A25D1758EA2806351D554F14D /* XPYKit-dummy.m */,
+				F05BC2AECA4F5965869B3FC2D800352F /* XPYKit-Info.plist */,
+				4A52B1BD897B1E36A6C0FA1849C7AACF /* XPYKit-prefix.pch */,
+				A7E0E8365460ED9B48E7E0D690FC7B79 /* XPYKit-umbrella.h */,
+				8DA0116540B91E5E8400F7ACA6F1F89D /* XPYKit.debug.xcconfig */,
+				074A060EB4C713186899C5A954C3C413 /* XPYKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XPYKit";
+			sourceTree = "<group>";
+		};
+		6F6A86AC482CEB4E17E8BE6C9BD39AB9 /* XPYKit */ = {
+			isa = PBXGroup;
+			children = (
+				DA5DEE587709F066FC2D5950600AE8A5 /* Pod */,
+				4A0ADC6DFED96DB9F13B002473B37E8D /* Support Files */,
+				EC416B50EF691E521108D4855C5D4E4A /* XPYAlert */,
+				325E91A783879D5C88037400BA00041B /* XPYCategoryView */,
+				D9087BA51066F15AA67EDF1AEFD0B315 /* XPYCopyLabel */,
+				37A81BB6BDAC1309DE24F4CE5F7A56FB /* XPYDropdownView */,
+				319B7B77803A7217819AB2E719040C7D /* XPYProgressHUD */,
+			);
+			name = XPYKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */,
+				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
+				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		B419A56CBBB3CC231696E603E651B69C /* Pods-XPYKit_Tests */ = {
@@ -267,39 +328,48 @@
 			path = "Target Support Files/Pods-XPYKit_Tests";
 			sourceTree = "<group>";
 		};
-		BD81F071D88620EB5E6A663B822C580C /* Development Pods */ = {
+		C3BC8CFAF08CA58A07075FEA7A344784 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				808414909BEA028B6C8C2E9FDD98A6D2 /* XPYKit */,
+				6F6A86AC482CEB4E17E8BE6C9BD39AB9 /* XPYKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C86A493F744575B77BC85AB9B143DAC2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */,
+				4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */,
+				53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */,
+				71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */,
+				5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */,
+				5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */,
+				6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		CD496C11F12A36A2E3C576FA77ABD664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */,
+				49DF5BAE7709B0460CC3643558F4D6BB /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BD81F071D88620EB5E6A663B822C580C /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9907520785FCA6AFEBE1CAC13C83175D /* Products */,
+				C3BC8CFAF08CA58A07075FEA7A344784 /* Development Pods */,
+				CD496C11F12A36A2E3C576FA77ABD664 /* Frameworks */,
+				3F242479102E24C5847AB040CB8095A8 /* Pods */,
+				4558866CF5E3031DA968DFCCC13D5D23 /* Products */,
 				D6E70D5137B74AB33CB2C1778376FF71 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D6E70D5137B74AB33CB2C1778376FF71 /* Targets Support Files */ = {
@@ -309,6 +379,38 @@
 				B419A56CBBB3CC231696E603E651B69C /* Pods-XPYKit_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9087BA51066F15AA67EDF1AEFD0B315 /* XPYCopyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B5803912254602E548D9ED054504BCE4 /* XPYCopyLabel.h */,
+				FAD5C1E94832E292849374178AD583A8 /* XPYCopyLabel.m */,
+			);
+			name = XPYCopyLabel;
+			path = XPYKit/Classes/XPYCopyLabel;
+			sourceTree = "<group>";
+		};
+		DA5DEE587709F066FC2D5950600AE8A5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D99F572EEC94588F4C5551563727C5D5 /* LICENSE */,
+				4A30C1D52D63320152373A926F6275B7 /* README.md */,
+				220A6F8436759753C1D6AFCA309E5072 /* XPYKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EC416B50EF691E521108D4855C5D4E4A /* XPYAlert */ = {
+			isa = PBXGroup;
+			children = (
+				14B2B858949292E27B7B1FBE07F47CDA /* XPYAlertController.h */,
+				AFE7E14D871741E06456C56FCCD471AD /* XPYAlertController.m */,
+				A7992AF4E2D6D36564C28513BB0F2E47 /* XPYAlertManager.h */,
+				DB1B7FC9BE64D1D71766A32B931CA4BA /* XPYAlertManager.m */,
+			);
+			name = XPYAlert;
+			path = XPYKit/Classes/XPYAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,29 +424,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		399196F1FECA762C7B6427DA0C3800D3 /* Headers */ = {
+		6A8EA7BAAB9E1123D07EF33D61E4F3FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B34ED2CBA4B7269B67341A1BE5263D06 /* XPYAlertController.h in Headers */,
-				FC0F027684BBFBFE18270C7E1FEC1170 /* XPYAlertManager.h in Headers */,
-				42CD5FACE3BA0F23F5E528B27AB65EC7 /* XPYCategoryContentView.h in Headers */,
-				592B4A328D886A7ABB9509F98B80C066 /* XPYCategoryTitleView.h in Headers */,
-				20B2705CF40DAC97B1ADF67AB208EE73 /* XPYCopyLabel.h in Headers */,
-				FA4EFDF5087BD8F208E063FFB7898A11 /* XPYDropdownCell.h in Headers */,
-				EF203C37C66C94CE9DB306DC1E159F07 /* XPYDropdownConfigurations.h in Headers */,
-				B6ABA13FC2E13A270CB8639C7EB9BFB9 /* XPYDropdownDefine.h in Headers */,
-				69C345A8888ACD9662E5948FB508A4C4 /* XPYDropdownItemModel.h in Headers */,
-				5FD7C1F09EE863BB45ED8CDD5FEB9773 /* XPYDropdownView.h in Headers */,
-				E7507D3AD2110D53DE93C41C411DA7AE /* XPYKit-umbrella.h in Headers */,
+				FAE7340DEBF58B9191A761D30BD3A825 /* Pods-XPYKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7029711AD359B76F5FC5CAA733A424B5 /* Headers */ = {
+		8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D963CF40B9BDE01CF15FFBA9184E3888 /* Pods-XPYKit_Example-umbrella.h in Headers */,
+				81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */,
+				EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E209EE5B908B4BA83D0B25BE88AED6DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FD16D4087866C3026E16E11A8ABF4 /* MBProgressHUD+XPYExtension.h in Headers */,
+				8C7E88CA63CA0CE0B32741531AEEC5AF /* XPYAlertController.h in Headers */,
+				8B8860261A7B46BD30C9652AC5C8895E /* XPYAlertManager.h in Headers */,
+				E8B880AADBFAFE21400CF9CCCA51A579 /* XPYCategoryContentView.h in Headers */,
+				8824DD56CACC0643E6534C7DF5FA3A5E /* XPYCategoryTitleView.h in Headers */,
+				1DA8294AE191A82508715F6C8D496848 /* XPYCopyLabel.h in Headers */,
+				221C4AF16C1799F35679A0ACF3CEF74F /* XPYDropdownCell.h in Headers */,
+				58F6A5B31130A7732959592265043385 /* XPYDropdownConfigurations.h in Headers */,
+				AFE5A553F93F4BAC6B09C08B91DBC9B0 /* XPYDropdownDefine.h in Headers */,
+				5454CF1C028201ADAFCBC55E0CC8446E /* XPYDropdownItemModel.h in Headers */,
+				E2E4E4FCA228E031F6429E4BAA6E09C5 /* XPYDropdownView.h in Headers */,
+				95AF25CFC0FDAA73FCE9B0688B312EF3 /* XPYKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,20 +465,39 @@
 /* Begin PBXNativeTarget section */
 		6D96844B958A113E48C6E6D4BE2008F7 /* XPYKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B93242BB88E4179756242D7A7023FBCA /* Build configuration list for PBXNativeTarget "XPYKit" */;
+			buildConfigurationList = EFF3FFAA2616028F20F211C82AB871F0 /* Build configuration list for PBXNativeTarget "XPYKit" */;
 			buildPhases = (
-				399196F1FECA762C7B6427DA0C3800D3 /* Headers */,
-				8052FC7B3B3DEE9A0FA3B455BF69C05F /* Sources */,
-				404B9F6A35CE16D3A29B6F427ECFD804 /* Frameworks */,
-				9A417684AFDA93B5BAF118072825A6A3 /* Resources */,
+				E209EE5B908B4BA83D0B25BE88AED6DD /* Headers */,
+				99B77CA47F00E0BFB9E5A4C86CE53BE0 /* Sources */,
+				A2E796355805AE7D1ED1E53FE3CDA0EB /* Frameworks */,
+				DCC8A5C804D06D5D3ADA01BB19BFF6D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E669C54B9F70462FCF130D18FDB0C1F /* PBXTargetDependency */,
+			);
+			name = XPYKit;
+			productName = XPYKit;
+			productReference = C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */,
+				D2F84DC2E2DB3628B17B3841F2837477 /* Sources */,
+				1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */,
+				435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = XPYKit;
-			productName = XPYKit;
-			productReference = C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */;
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF0A5C50217CA318BFE259777DD57596 /* Pods-XPYKit_Tests */ = {
@@ -390,17 +521,18 @@
 		};
 		BC82B17DC6E7A3FDDEAA9C2C756BBF36 /* Pods-XPYKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E71E403E7EE8F888DE27816274256C6D /* Build configuration list for PBXNativeTarget "Pods-XPYKit_Example" */;
+			buildConfigurationList = F548C9104A35839A3AA5D31F687EDFA2 /* Build configuration list for PBXNativeTarget "Pods-XPYKit_Example" */;
 			buildPhases = (
-				7029711AD359B76F5FC5CAA733A424B5 /* Headers */,
-				57E642B68051BABB35B5D48D83484054 /* Sources */,
-				1E724DB28706BF66EEFE1B5A4ED5675E /* Frameworks */,
-				A0048DBC77C41D2FF0414C59C0C7A106 /* Resources */,
+				6A8EA7BAAB9E1123D07EF33D61E4F3FC /* Headers */,
+				B0AB6134B3A827568BC12D21FBF6400A /* Sources */,
+				B887AE73ABC84193D2AE41DEC42B0C63 /* Frameworks */,
+				4E357EF7E7F77E5D162A28E23C6D3FEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC250BA14E58B8FE060C5E63D20A06D8 /* PBXTargetDependency */,
+				2D43742F36EEBB0F162A027EACF7B79F /* PBXTargetDependency */,
+				62BEA16C31B6184892CBFDE5AE460EA6 /* PBXTargetDependency */,
 			);
 			name = "Pods-XPYKit_Example";
 			productName = "Pods-XPYKit_Example";
@@ -425,10 +557,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9907520785FCA6AFEBE1CAC13C83175D /* Products */;
+			productRefGroup = 4558866CF5E3031DA968DFCCC13D5D23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				BC82B17DC6E7A3FDDEAA9C2C756BBF36 /* Pods-XPYKit_Example */,
 				AF0A5C50217CA318BFE259777DD57596 /* Pods-XPYKit_Tests */,
 				6D96844B958A113E48C6E6D4BE2008F7 /* XPYKit */,
@@ -437,6 +570,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E357EF7E7F77E5D162A28E23C6D3FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		998553D9366589D2C3A2DD9EA9AE3999 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,14 +591,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A417684AFDA93B5BAF118072825A6A3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0048DBC77C41D2FF0414C59C0C7A106 /* Resources */ = {
+		DCC8A5C804D06D5D3ADA01BB19BFF6D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,14 +601,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		57E642B68051BABB35B5D48D83484054 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6D592E5209138BDAD8254635CBC8F88 /* Pods-XPYKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7AFAD9BCE58D1DBB0BE1489F7760ED74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,46 +609,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8052FC7B3B3DEE9A0FA3B455BF69C05F /* Sources */ = {
+		99B77CA47F00E0BFB9E5A4C86CE53BE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6A359E47DB2E5C0ED8C827A5CA9401C /* XPYAlertController.m in Sources */,
-				744ACE906D9FBC03DEEEB67154233786 /* XPYAlertManager.m in Sources */,
-				18689610102A59F30BAE635613BE5677 /* XPYCategoryContentView.m in Sources */,
-				9DD6ED5033C972BECD2511024E69F066 /* XPYCategoryTitleView.m in Sources */,
-				4B15A03C7DEDD25EC66AE4AC099E43FD /* XPYCopyLabel.m in Sources */,
-				F32D66A6BBA065F395CC322F79EBA5A9 /* XPYDropdownCell.m in Sources */,
-				AE3B216EE26EF39E6F99A05E5C3CEB8F /* XPYDropdownConfigurations.m in Sources */,
-				57D71D830DF666FD3F51075CA51F1552 /* XPYDropdownItemModel.m in Sources */,
-				FEC989AC20794F0B13DB1C56779F3BE1 /* XPYDropdownView.m in Sources */,
-				D5088780948BAD3E1FE5FA25099FE9EF /* XPYKit-dummy.m in Sources */,
+				8828568C4571A7C7531AE4C45C028EBD /* MBProgressHUD+XPYExtension.m in Sources */,
+				3BAA0B6E9D7878A233CE89D3E9D67D39 /* XPYAlertController.m in Sources */,
+				76208FA5B8A18304686D390DA11A9495 /* XPYAlertManager.m in Sources */,
+				3EC28311FB50939CA79471362F8FBBE6 /* XPYCategoryContentView.m in Sources */,
+				587D3FF0290C2E8F426C256B97188764 /* XPYCategoryTitleView.m in Sources */,
+				ECA09DE2AF3F9A7EDC220A2691FB78D4 /* XPYCopyLabel.m in Sources */,
+				449F1B3C2961059F6476990540894B87 /* XPYDropdownCell.m in Sources */,
+				39045CC8A1D5F99ACEE9253CFE2BB4DD /* XPYDropdownConfigurations.m in Sources */,
+				BCC620332762C75EFBE1D30A9D4D42D8 /* XPYDropdownItemModel.m in Sources */,
+				D053D7F09F71B82C44BD39ACCBB56952 /* XPYDropdownView.m in Sources */,
+				D921F641EDDD15B58BFA469DB44FE041 /* XPYKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0AB6134B3A827568BC12D21FBF6400A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360BD5596B7CD8CC9F07B759CC012FE8 /* Pods-XPYKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F84DC2E2DB3628B17B3841F2837477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */,
+				70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2D43742F36EEBB0F162A027EACF7B79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 4A3C01E3ECF012947F30B14D5C5B1A1A /* PBXContainerItemProxy */;
+		};
+		62BEA16C31B6184892CBFDE5AE460EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XPYKit;
+			target = 6D96844B958A113E48C6E6D4BE2008F7 /* XPYKit */;
+			targetProxy = 293C03C08B991AC5D4D6795DA6F4E7C7 /* PBXContainerItemProxy */;
+		};
+		9E669C54B9F70462FCF130D18FDB0C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = FB8B8E340499859818C02FC46DFEA0E6 /* PBXContainerItemProxy */;
+		};
 		AE8987D2B2F929A1E1AB97224508772F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XPYKit_Example";
 			target = BC82B17DC6E7A3FDDEAA9C2C756BBF36 /* Pods-XPYKit_Example */;
 			targetProxy = 4C1A3FAAFBFFDC24E7B399808300A2C5 /* PBXContainerItemProxy */;
 		};
-		DC250BA14E58B8FE060C5E63D20A06D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XPYKit;
-			target = 6D96844B958A113E48C6E6D4BE2008F7 /* XPYKit */;
-			targetProxy = 95A97CE92CAC5E5A482480F6E6469B45 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1148DE9746541F4807E0FE5136695D31 /* Debug */ = {
+		0D85C49A05BEA8CEDD3EF5F3999210C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C488DDE13666CF71D5B7ED1117DEA38 /* Pods-XPYKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -526,19 +687,49 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XPYKit_Example/Pods-XPYKit_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XPYKit_Example/Pods-XPYKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25FE964676DAB887F18B4E3F8646DC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA0116540B91E5E8400F7ACA6F1F89D /* XPYKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XPYKit/XPYKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XPYKit/XPYKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XPYKit/XPYKit.modulemap";
+				PRODUCT_MODULE_NAME = XPYKit;
+				PRODUCT_NAME = XPYKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -638,10 +829,11 @@
 			};
 			name = Release;
 		};
-		525B5F7A65E9116C6FA08D8BE6E27A97 /* Release */ = {
+		60B995A482D082F1535B6E6BC98D9C43 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C84575AE78C84F03830F6157D1EBC41F /* XPYKit.xcconfig */;
+			baseConfigurationReference = 6166AEB0711BD136F42FD7DC68CEA958 /* Pods-XPYKit_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -651,18 +843,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XPYKit/XPYKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XPYKit/XPYKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-XPYKit_Example/Pods-XPYKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XPYKit/XPYKit.modulemap";
-				PRODUCT_MODULE_NAME = XPYKit;
-				PRODUCT_NAME = XPYKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XPYKit_Example/Pods-XPYKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -768,9 +961,41 @@
 			};
 			name = Debug;
 		};
-		C1202D5040821AFBBA9C3CAF4EF9A91A /* Debug */ = {
+		836A2BDF603CF2F5A87DC860AE4846F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C84575AE78C84F03830F6157D1EBC41F /* XPYKit.xcconfig */;
+			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8910C1FDF623E3F3BEA45D706B92DD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074A060EB4C713186899C5A954C3C413 /* XPYKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -794,14 +1019,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		F45083EA31F2CDFF1C70A022E816A5EF /* Release */ = {
+		9F6FF82DCC3CFD620BE7D6E9ECB8D8AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6166AEB0711BD136F42FD7DC68CEA958 /* Pods-XPYKit_Example.release.xcconfig */;
+			baseConfigurationReference = 1C488DDE13666CF71D5B7ED1117DEA38 /* Pods-XPYKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -827,11 +1053,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -854,20 +1079,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B93242BB88E4179756242D7A7023FBCA /* Build configuration list for PBXNativeTarget "XPYKit" */ = {
+		70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1202D5040821AFBBA9C3CAF4EF9A91A /* Debug */,
-				525B5F7A65E9116C6FA08D8BE6E27A97 /* Release */,
+				0D85C49A05BEA8CEDD3EF5F3999210C0 /* Debug */,
+				836A2BDF603CF2F5A87DC860AE4846F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E71E403E7EE8F888DE27816274256C6D /* Build configuration list for PBXNativeTarget "Pods-XPYKit_Example" */ = {
+		EFF3FFAA2616028F20F211C82AB871F0 /* Build configuration list for PBXNativeTarget "XPYKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1148DE9746541F4807E0FE5136695D31 /* Debug */,
-				F45083EA31F2CDFF1C70A022E816A5EF /* Release */,
+				25FE964676DAB887F18B4E3F8646DC3F /* Debug */,
+				8910C1FDF623E3F3BEA45D706B92DD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F548C9104A35839A3AA5D31F687EDFA2 /* Build configuration list for PBXNativeTarget "Pods-XPYKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6FF82DCC3CFD620BE7D6E9ECB8D8AB /* Debug */,
+				60B995A482D082F1535B6E6BC98D9C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

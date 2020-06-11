@@ -9,6 +9,9 @@
 #import "XPYViewController.h"
 #import "XPYCategoryViewController.h"
 #import "XPYCopyLabelViewController.h"
+
+#import <MBProgressHUD+XPYExtension.h>
+
 #import <XPYAlertManager.h>
 #import <XPYDropdownDefine.h>
 
@@ -24,6 +27,12 @@
 {
     [super viewDidLoad];
     
+    //[MBProgressHUD xpy_showHUDWithTips:@"请稍候..."];
+}
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [MBProgressHUD xpy_showSuccessTips:@"完成"];
+    //[MBProgressHUD xpy_showTips:@"提示"];
 }
 
 - (IBAction)dropdownAction:(id)sender {
@@ -97,7 +106,7 @@
         }
             break;
         case 1: {
-            [XPYAlertManager showActionSheetWithTitle:@"ActionSheet" message:@"ActionSheet" cancel:@"取消" inController:self actions:@[@"item0", @"item1", @"item2"] actionHandler:^(NSInteger index) {
+            [XPYAlertManager showActionSheetWithTitle:@"ActionSheet" message:@"ActionSheet" cancel:@"取消" inController:self sourceView:nil actions:@[@"item0", @"item1", @"item2"] actionHandler:^(NSInteger index) {
                 NSLog(@"click item%@", @(index));
             }];
         }

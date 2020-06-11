@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XPYKit'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = '开发工具库'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/xiangxiaopenyou/XPYKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xiangxiaopenyou' => 'xlp921123@163.com' }
+  s.author           = { 'xiangxiaopenyou' => 'xlpiOSer@163.com' }
   s.source           = { :git => 'https://github.com/xiangxiaopenyou/XPYKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MBProgressHUD'
 end

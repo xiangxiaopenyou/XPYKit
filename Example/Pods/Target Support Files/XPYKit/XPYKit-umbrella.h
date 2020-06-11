@@ -20,6 +20,7 @@
 #import "XPYDropdownDefine.h"
 #import "XPYDropdownItemModel.h"
 #import "XPYDropdownView.h"
+#import "MBProgressHUD+XPYExtension.h"
 
 FOUNDATION_EXPORT double XPYKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XPYKitVersionString[];

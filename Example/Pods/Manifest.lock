@@ -1,16 +1,23 @@
 PODS:
-  - XPYKit (1.0.2)
+  - MBProgressHUD (1.2.0)
+  - XPYKit (1.0.4):
+    - MBProgressHUD
 
 DEPENDENCIES:
   - XPYKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   XPYKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XPYKit: ff25b35eded98d4360ad4eef991bf1b366a8fa05
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  XPYKit: 82307035320d66f332f7c4475b8f9486b07acb4d
 
-PODFILE CHECKSUM: 3727d67ee3b06ffb22ee7a1bcdbdda47eb3a0064
+PODFILE CHECKSUM: 724512ac0fda1ab517dd4d91ea6bb8450fe93e4c
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

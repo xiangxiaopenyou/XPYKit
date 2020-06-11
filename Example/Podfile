@@ -7,7 +7,6 @@ target 'XPYKit_Example' do
 
   target 'XPYKit_Tests' do
     inherit! :search_paths
-
     
   end
 end

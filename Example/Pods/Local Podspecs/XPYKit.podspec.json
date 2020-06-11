@@ -1,6 +1,6 @@
 {
   "name": "XPYKit",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "summary": "开发工具库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiangxiaopenyou/XPYKit",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/xiangxiaopenyou/XPYKit.git",
-    "tag": "1.0.2"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XPYKit/Classes/**/*"
+  "source_files": "XPYKit/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  }
 }
