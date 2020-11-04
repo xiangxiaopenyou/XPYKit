@@ -23,6 +23,8 @@
 		587D3FF0290C2E8F426C256B97188764 /* XPYCategoryTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31685CC55E56FB08C73A00B6C8655151 /* XPYCategoryTitleView.m */; };
 		58F6A5B31130A7732959592265043385 /* XPYDropdownConfigurations.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B426A5059DC288DE5A1A90CA272636 /* XPYDropdownConfigurations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */; };
+		6C202298255297C80036D31A /* XPYToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C202296255297C80036D31A /* XPYToast.h */; };
+		6C202299255297C80036D31A /* XPYToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C202297255297C80036D31A /* XPYToast.m */; };
 		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
 		76208FA5B8A18304686D390DA11A9495 /* XPYAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1B7FC9BE64D1D71766A32B931CA4BA /* XPYAlertManager.m */; };
 		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,11 +89,11 @@
 		14B2B858949292E27B7B1FBE07F47CDA /* XPYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYAlertController.h; sourceTree = "<group>"; };
 		1BB6308B55F3DBC20E3D4134E84FE609 /* XPYCategoryTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCategoryTitleView.h; sourceTree = "<group>"; };
 		1C488DDE13666CF71D5B7ED1117DEA38 /* Pods-XPYKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XPYKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		220A6F8436759753C1D6AFCA309E5072 /* XPYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XPYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		220A6F8436759753C1D6AFCA309E5072 /* XPYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XPYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		31685CC55E56FB08C73A00B6C8655151 /* XPYCategoryTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCategoryTitleView.m; sourceTree = "<group>"; };
 		3BA2999522A3D096F6A4953F65FC8103 /* XPYDropdownCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownCell.m; sourceTree = "<group>"; };
-		3CB765E8C22B7576EC58F8F9BFEADDE1 /* Pods_XPYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XPYKit_Example.framework; path = "Pods-XPYKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A30C1D52D63320152373A926F6275B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3CB765E8C22B7576EC58F8F9BFEADDE1 /* Pods_XPYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPYKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A30C1D52D63320152373A926F6275B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4A52B1BD897B1E36A6C0FA1849C7AACF /* XPYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPYKit-prefix.pch"; sourceTree = "<group>"; };
 		4EB61C7F9DB31FD8C284DF9153BF085E /* Pods-XPYKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPYKit_Example-dummy.m"; sourceTree = "<group>"; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
@@ -106,19 +108,21 @@
 		64BD6B4A988E320D0E63CD74162ECC1A /* XPYCategoryContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCategoryContentView.h; sourceTree = "<group>"; };
 		669DFFC7F0C1C0F20A97D09936F06CE7 /* Pods-XPYKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPYKit_Example.modulemap"; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6C202296255297C80036D31A /* XPYToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPYToast.h; sourceTree = "<group>"; };
+		6C202297255297C80036D31A /* XPYToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPYToast.m; sourceTree = "<group>"; };
 		6CE1316116A9CACDB771DD3CBC516361 /* XPYDropdownConfigurations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownConfigurations.m; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		6E7024ED366D7E905E40FAAF98F12F72 /* XPYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPYKit.modulemap; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		71B8947A69F75114A19BA6AE92C356F9 /* Pods-XPYKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPYKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7D896E2C4B04CB70993C0CB8E23A4B71 /* Pods-XPYKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XPYKit_Tests.modulemap"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D98CD8CFFF4A8F382D5E64CE3F08729 /* Pods-XPYKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		8DA0116540B91E5E8400F7ACA6F1F89D /* XPYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPYKit.debug.xcconfig; sourceTree = "<group>"; };
 		8F2C77543C6FE3C9A30D61E971366A5F /* XPYDropdownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownView.h; sourceTree = "<group>"; };
 		90FC0A05A3BF62A41CFB987DA7FA895B /* Pods-XPYKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XPYKit_Example-Info.plist"; sourceTree = "<group>"; };
 		937B88FBD5608A648E348ACC46C65C41 /* Pods-XPYKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XPYKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4BA3276E6006487F1A545ADCCD8C2A /* XPYDropdownDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownDefine.h; sourceTree = "<group>"; };
 		A2FC9FFA5D9D56B2FF3B566770B9DECA /* XPYCategoryContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCategoryContentView.m; sourceTree = "<group>"; };
 		A7992AF4E2D6D36564C28513BB0F2E47 /* XPYAlertManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYAlertManager.h; sourceTree = "<group>"; };
@@ -128,10 +132,10 @@
 		B5803912254602E548D9ED054504BCE4 /* XPYCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYCopyLabel.h; sourceTree = "<group>"; };
 		B9EEE7D246E9CD8665DC45BF2BB53CAF /* XPYDropdownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYDropdownView.m; sourceTree = "<group>"; };
 		BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XPYKit.framework; path = XPYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C091B8E0D18F808E8E22D27F955B7068 /* XPYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B426A5059DC288DE5A1A90CA272636 /* XPYDropdownConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPYDropdownConfigurations.h; sourceTree = "<group>"; };
 		C436EFCFBE4A0054AFD012055867FB8B /* Pods-XPYKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XPYKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D99F572EEC94588F4C5551563727C5D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D99F572EEC94588F4C5551563727C5D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DB1B7FC9BE64D1D71766A32B931CA4BA /* XPYAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYAlertManager.m; sourceTree = "<group>"; };
 		DE1E3CAF1BD9F667F5A26F4000C3132C /* MBProgressHUD+XPYExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XPYExtension.m"; sourceTree = "<group>"; };
 		E244751A25D1758EA2806351D554F14D /* XPYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPYKit-dummy.m"; sourceTree = "<group>"; };
@@ -139,7 +143,7 @@
 		F05BC2AECA4F5965869B3FC2D800352F /* XPYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XPYKit-Info.plist"; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		F2E206F10073146121A3619EE59E8192 /* Pods-XPYKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XPYKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		F4356C53BDF345B7F8E036F518C4289F /* Pods_XPYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XPYKit_Tests.framework; path = "Pods-XPYKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4356C53BDF345B7F8E036F518C4289F /* Pods_XPYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPYKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FAD5C1E94832E292849374178AD583A8 /* XPYCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPYCopyLabel.m; sourceTree = "<group>"; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -286,6 +290,15 @@
 			path = "Example/Pods/Target Support Files/XPYKit";
 			sourceTree = "<group>";
 		};
+		6C202295255295B20036D31A /* XPYToast */ = {
+			isa = PBXGroup;
+			children = (
+				6C202296255297C80036D31A /* XPYToast.h */,
+				6C202297255297C80036D31A /* XPYToast.m */,
+			);
+			path = XPYToast;
+			sourceTree = "<group>";
+		};
 		6F6A86AC482CEB4E17E8BE6C9BD39AB9 /* XPYKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +309,7 @@
 				D9087BA51066F15AA67EDF1AEFD0B315 /* XPYCopyLabel */,
 				37A81BB6BDAC1309DE24F4CE5F7A56FB /* XPYDropdownView */,
 				319B7B77803A7217819AB2E719040C7D /* XPYProgressHUD */,
+				6C202295255295B20036D31A /* XPYToast */,
 			);
 			name = XPYKit;
 			path = ../..;
@@ -308,7 +322,6 @@
 				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
 				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -438,6 +451,7 @@
 			files = (
 				81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */,
 				EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */,
+				6C202298255297C80036D31A /* XPYToast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +653,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C202299255297C80036D31A /* XPYToast.m in Sources */,
 				DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */,
 				70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */,
 			);
@@ -822,8 +837,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
