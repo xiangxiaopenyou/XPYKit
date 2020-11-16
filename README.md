@@ -97,7 +97,7 @@ pod 'XPYKit' :git => 'https://github.com/xiangxiaopenyou/XPYKit.git
 
 ## Author
 
-xiangxiaopenyou, xlp921123@163.com
+xiangxiaopenyou, xlpiOSer@163.com
 
 ## License
 
