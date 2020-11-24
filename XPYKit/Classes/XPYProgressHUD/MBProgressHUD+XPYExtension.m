@@ -42,6 +42,8 @@
                      customView:(UIView *)customView
                      isAutoHide:(BOOL)yesOrNo
                      sourceView:(UIView *)sourceView {
+    UIView *view = sourceView ? sourceView : ([UIApplication sharedApplication].delegate.window ? [UIApplication sharedApplication].delegate.window : [UIApplication sharedApplication].windows.lastObject);
+    [self xpy_dismissHUDForView:view];
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:[self sourceView:sourceView] animated:YES];
     hud.animationType = MBProgressHUDAnimationZoom;
     // 自动消失的是简单文字提示，否则是UIActivityIndicatorView

@@ -10,7 +10,7 @@
 @implementation XPYToast
 
 + (void)showToast {
-    
+    // XPYToast *toast = [XPYToast alloc] initWithFrame:<#(CGRect)#>
 }
 
 @end
