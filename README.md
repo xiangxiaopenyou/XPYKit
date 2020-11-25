@@ -23,7 +23,7 @@ pod 'XPYKit' :git => 'https://github.com/xiangxiaopenyou/XPYKit.git
 
 ## Usage
 
-1、Alert
+### Alert
 
     [XPYAlertManager showAlertWithTitle:@"Alert" message:@"Alert" cancel:@"取消" confirm:@"确定" inController:self confirmHandler:^{
 
@@ -35,7 +35,7 @@ pod 'XPYKit' :git => 'https://github.com/xiangxiaopenyou/XPYKit.git
     
     }];
 
-2、ActionSheet
+### ActionSheet
 
     [XPYAlertManager showActionSheetWithTitle:@"ActionSheet" message:@"ActionSheet" cancel:@"取消" inController:self actions:@[@"item0", @"item1", @"item2"] actionHandler:^(NSInteger index) {
 
@@ -43,7 +43,7 @@ pod 'XPYKit' :git => 'https://github.com/xiangxiaopenyou/XPYKit.git
     
     }];
 
-3、CopyLabel
+### CopyLabel
 
     XPYCopyLabel *label = [[XPYCopyLabel alloc] initWithFrame:CGRectMake(200, 200, 100, 50)];
     
@@ -57,11 +57,11 @@ pod 'XPYKit' :git => 'https://github.com/xiangxiaopenyou/XPYKit.git
     
 ![CopyLabel](Example/ExampleImages/copy_label.gif)
 
-4、CategoryView
+### CategoryView
 
 ![CategoryView](Example/ExampleImages/category_view.gif)
 
-5、DropdownView
+### DropdownView
 
     XPYDropdownConfigurations *config = [[XPYDropdownConfigurations alloc] init];
     // 背景颜色
