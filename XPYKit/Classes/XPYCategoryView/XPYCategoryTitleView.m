@@ -102,10 +102,6 @@
 - (void)selectCategoryViewItemWithIndex:(NSInteger)index {
     UIButton *targetButton = self.titleButtons[index];
     [self selectButton:targetButton];
-    
-//    if (self.delegate && [self.delegate respondsToSelector:@selector(categoryTitleViewDidSelectItemAtIndex:)]) {
-//        [self.delegate categoryTitleViewDidSelectItemAtIndex:index];
-//    }
 }
 
 #pragma mark - Private methods
